@@ -6,3 +6,5 @@ models/
 src/video*
 src/random*
 src/Shopp*
+*__pycache__
+*.ipynb_checkpoints

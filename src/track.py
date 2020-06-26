@@ -89,6 +89,7 @@ def main(opt, data_root='/data/MOT16/train', det_root=None, seqs=('MOT16-05',), 
          save_images=False, save_videos=False, show_image=True):
     logger.setLevel(logging.INFO)
     result_root = os.path.join(data_root, '..', 'results', exp_name)
+    #print(data_root)
     mkdir_if_missing(result_root)
     data_type = 'mot'
 
