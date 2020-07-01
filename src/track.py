@@ -23,6 +23,17 @@ from tracking_utils.utils import mkdir_if_missing
 from opts import opts
 
 
+class VideoWriter:
+    def __init__(self,save_path,dataloader):
+        self.frame_rate = dataloader.frame_rate
+        self.height = dataloader.vh
+        self.width = dataloader.vw
+        fourcc = cv2.VideoWriter_fourcc(*'XVID')
+        self.writer_obj = cv2.VideoWriter(f'{save_path}/output.avi', fourcc, self.frame_rate, (self.width,self.height))
+
+    def write(self,frame):
+        self.writer_obj.write(frame)
+
 def write_results(filename, results, data_type):
     if data_type == 'mot':
         save_format = '{frame},{id},{x1},{y1},{w},{h},1,-1,-1,-1\n'
@@ -52,9 +63,10 @@ def eval_seq(opt, dataloader, data_type, result_filename, save_dir=None, show_im
     timer = Timer()
     results = []
     frame_id = 0
+    writer = VideoWriter(save_dir,dataloader)
     for path, img, img0 in dataloader:
-        if frame_id % 20 == 0:
-            logger.info('Processing frame {} ({:.2f} fps)'.format(frame_id, 1. / max(1e-5, timer.average_time)))
+        # if frame_id % 20 == 0:
+        #     logger.info('Processing frame {} ({:.2f} fps)'.format(frame_id, 1. / max(1e-5, timer.average_time)))
 
         # run tracking
         timer.tic()
@@ -78,10 +90,11 @@ def eval_seq(opt, dataloader, data_type, result_filename, save_dir=None, show_im
         if show_image:
             cv2.imshow('online_im', online_im)
         if save_dir is not None:
-            cv2.imwrite(os.path.join(save_dir, '{:05d}.jpg'.format(frame_id)), online_im)
+            # cv2.imwrite(os.path.join(save_dir, '{:05d}.jpg'.format(frame_id)), online_im)
+            writer.write(online_im)
         frame_id += 1
     # save results
-    write_results(result_filename, results, data_type)
+    #write_results(result_filename, results, data_type)
     return frame_id, timer.average_time, timer.calls
 
 

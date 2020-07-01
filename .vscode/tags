@@ -1,0 +1,791 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AverageMeter	../src/lib/utils/utils.py	/^class AverageMeter(object):$/;"	kind:class	line:8
+BN_MOMENTUM	../src/lib/models/networks/pose_dla_dcn.py	/^BN_MOMENTUM = 0.1$/;"	kind:variable	line:17
+BN_MOMENTUM	../src/lib/models/networks/pose_hrnet.py	/^BN_MOMENTUM = 0.01$/;"	kind:variable	line:16
+BN_MOMENTUM	../src/lib/models/networks/resnet_dcn.py	/^BN_MOMENTUM = 0.1$/;"	kind:variable	line:20
+BN_MOMENTUM	../src/lib/models/networks/resnet_fpn_dcn.py	/^BN_MOMENTUM = 0.1$/;"	kind:variable	line:20
+BaseTrack	../src/lib/tracker/basetrack.py	/^class BaseTrack(object):$/;"	kind:class	line:12
+BaseTrack	../src/lib/tracker2/basetrack.py	/^class BaseTrack(object):$/;"	kind:class	line:12
+BaseTrainer	../src/lib/trains/base_trainer.py	/^class BaseTrainer(object):$/;"	kind:class	line:23
+BasicBlock	../src/lib/models/networks/dlav0.py	/^class BasicBlock(nn.Module):$/;"	kind:class	line:28
+BasicBlock	../src/lib/models/networks/pose_dla_dcn.py	/^class BasicBlock(nn.Module):$/;"	kind:class	line:30
+BasicBlock	../src/lib/models/networks/pose_hrnet.py	/^class BasicBlock(nn.Module):$/;"	kind:class	line:26
+BasicBlock	../src/lib/models/networks/resnet_dcn.py	/^class BasicBlock(nn.Module):$/;"	kind:class	line:37
+BasicBlock	../src/lib/models/networks/resnet_fpn_dcn.py	/^class BasicBlock(nn.Module):$/;"	kind:class	line:37
+BatchNorm	../src/lib/models/networks/dlav0.py	/^BatchNorm = nn.BatchNorm2d$/;"	kind:variable	line:16
+BinRotLoss	../src/lib/models/losses.py	/^class BinRotLoss(nn.Module):$/;"	kind:class	line:187
+Bottleneck	../src/lib/models/networks/dlav0.py	/^class Bottleneck(nn.Module):$/;"	kind:class	line:59
+Bottleneck	../src/lib/models/networks/pose_dla_dcn.py	/^class Bottleneck(nn.Module):$/;"	kind:class	line:61
+Bottleneck	../src/lib/models/networks/pose_hrnet.py	/^class Bottleneck(nn.Module):$/;"	kind:class	line:58
+Bottleneck	../src/lib/models/networks/resnet_dcn.py	/^class Bottleneck(nn.Module):$/;"	kind:class	line:69
+Bottleneck	../src/lib/models/networks/resnet_fpn_dcn.py	/^class Bottleneck(nn.Module):$/;"	kind:class	line:69
+BottleneckX	../src/lib/models/networks/dlav0.py	/^class BottleneckX(nn.Module):$/;"	kind:class	line:100
+BottleneckX	../src/lib/models/networks/pose_dla_dcn.py	/^class BottleneckX(nn.Module):$/;"	kind:class	line:102
+DCN	../src/lib/models/networks/DCNv2/dcn_v2.py	/^class DCN(DCNv2):$/;"	kind:class	line:97
+DCN	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^class DCN(DCNv2):$/;"	kind:class	line:97
+DCNPooling	../src/lib/models/networks/DCNv2/dcn_v2.py	/^class DCNPooling(DCNv2Pooling):$/;"	kind:class	line:223
+DCNPooling	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^class DCNPooling(DCNv2Pooling):$/;"	kind:class	line:223
+DCNv2	../src/lib/models/networks/DCNv2/dcn_v2.py	/^class DCNv2(nn.Module):$/;"	kind:class	line:57
+DCNv2	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^class DCNv2(nn.Module):$/;"	kind:class	line:57
+DCNv2Pooling	../src/lib/models/networks/DCNv2/dcn_v2.py	/^class DCNv2Pooling(nn.Module):$/;"	kind:class	line:187
+DCNv2Pooling	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^class DCNv2Pooling(nn.Module):$/;"	kind:class	line:187
+DLA	../src/lib/models/networks/dlav0.py	/^class DLA(nn.Module):$/;"	kind:class	line:221
+DLA	../src/lib/models/networks/pose_dla_dcn.py	/^class DLA(nn.Module):$/;"	kind:class	line:223
+DLASeg	../src/lib/models/networks/dlav0.py	/^class DLASeg(nn.Module):$/;"	kind:class	line:527
+DLASeg	../src/lib/models/networks/pose_dla_dcn.py	/^class DLASeg(nn.Module):$/;"	kind:class	line:426
+DLAUp	../src/lib/models/networks/dlav0.py	/^class DLAUp(nn.Module):$/;"	kind:class	line:493
+DLAUp	../src/lib/models/networks/pose_dla_dcn.py	/^class DLAUp(nn.Module):$/;"	kind:class	line:389
+DataParallel	../src/lib/models/data_parallel.py	/^def DataParallel(module, device_ids=None, output_device=None, dim=0, chunk_sizes=None):$/;"	kind:function	line:119
+DeformConv	../src/lib/models/networks/pose_dla_dcn.py	/^class DeformConv(nn.Module):$/;"	kind:class	line:344
+DeformConv	../src/lib/models/networks/resnet_fpn_dcn.py	/^class DeformConv(nn.Module):$/;"	kind:class	line:279
+DetDataset	../src/lib/datasets/dataset/jde.py	/^class DetDataset(LoadImagesAndLabels):  # for training$/;"	kind:class	line:467
+Evaluator	../src/lib/tracking_utils/evaluation.py	/^class Evaluator(object):$/;"	kind:class	line:10
+FocalLoss	../src/lib/models/losses.py	/^class FocalLoss(nn.Module):$/;"	kind:class	line:114
+HighResolutionModule	../src/lib/models/networks/pose_hrnet.py	/^class HighResolutionModule(nn.Module):$/;"	kind:class	line:99
+IDAUp	../src/lib/models/networks/dlav0.py	/^class IDAUp(nn.Module):$/;"	kind:class	line:434
+IDAUp	../src/lib/models/networks/pose_dla_dcn.py	/^class IDAUp(nn.Module):$/;"	kind:class	line:359
+Identity	../src/lib/models/networks/dlav0.py	/^class Identity(nn.Module):$/;"	kind:class	line:414
+Identity	../src/lib/models/networks/pose_dla_dcn.py	/^class Identity(nn.Module):$/;"	kind:class	line:316
+Interpolate	../src/lib/models/networks/pose_dla_dcn.py	/^class Interpolate(nn.Module):$/;"	kind:class	line:415
+JDETracker	../src/lib/tracker/multitracker.py	/^class JDETracker(object):$/;"	kind:class	line:167
+JDETracker	../src/lib/tracker2/multitracker.py	/^class JDETracker(object):$/;"	kind:class	line:167
+JointDataset	../src/lib/datasets/dataset/jde.py	/^class JointDataset(LoadImagesAndLabels):  # for training$/;"	kind:class	line:349
+KalmanFilter	../src/lib/tracking_utils/kalman_filter.py	/^class KalmanFilter(object):$/;"	kind:class	line:22
+L1Loss	../src/lib/models/losses.py	/^class L1Loss(nn.Module):$/;"	kind:class	line:177
+LoadImages	../src/lib/datasets/dataset/jde.py	/^class LoadImages:  # for inference$/;"	kind:class	line:22
+LoadImagesAndLabels	../src/lib/datasets/dataset/jde.py	/^class LoadImagesAndLabels:  # for training$/;"	kind:class	line:134
+LoadVideo	../src/lib/datasets/dataset/jde.py	/^class LoadVideo:  # for inference$/;"	kind:class	line:86
+Logger	../src/lib/logger.py	/^class Logger(object):$/;"	kind:class	line:17
+Lost	../src/lib/tracker/basetrack.py	/^    Lost = 2$/;"	kind:variable	line:8
+Lost	../src/lib/tracker2/basetrack.py	/^    Lost = 2$/;"	kind:variable	line:8
+ModleWithLoss	../src/lib/trains/base_trainer.py	/^class ModleWithLoss(torch.nn.Module):$/;"	kind:class	line:12
+MotLoss	../src/lib/trains/mot.py	/^class MotLoss(torch.nn.Module):$/;"	kind:class	line:19
+MotTrainer	../src/lib/trains/mot.py	/^class MotTrainer(BaseTrainer):$/;"	kind:class	line:86
+New	../src/lib/tracker/basetrack.py	/^    New = 0$/;"	kind:variable	line:6
+New	../src/lib/tracker2/basetrack.py	/^    New = 0$/;"	kind:variable	line:6
+NormRegL1Loss	../src/lib/models/losses.py	/^class NormRegL1Loss(nn.Module):$/;"	kind:class	line:151
+PoseHighResolutionNet	../src/lib/models/networks/pose_hrnet.py	/^class PoseHighResolutionNet(nn.Module):$/;"	kind:class	line:272
+PoseResNet	../src/lib/models/networks/resnet_dcn.py	/^class PoseResNet(nn.Module):$/;"	kind:class	line:129
+PoseResNet	../src/lib/models/networks/resnet_fpn_dcn.py	/^class PoseResNet(nn.Module):$/;"	kind:class	line:129
+RegL1Loss	../src/lib/models/losses.py	/^class RegL1Loss(nn.Module):$/;"	kind:class	line:139
+RegLoss	../src/lib/models/losses.py	/^class RegLoss(nn.Module):$/;"	kind:class	line:123
+RegWeightedL1Loss	../src/lib/models/losses.py	/^class RegWeightedL1Loss(nn.Module):$/;"	kind:class	line:165
+Removed	../src/lib/tracker/basetrack.py	/^    Removed = 3$/;"	kind:variable	line:9
+Removed	../src/lib/tracker2/basetrack.py	/^    Removed = 3$/;"	kind:variable	line:9
+Root	../src/lib/models/networks/dlav0.py	/^class Root(nn.Module):$/;"	kind:class	line:144
+Root	../src/lib/models/networks/pose_dla_dcn.py	/^class Root(nn.Module):$/;"	kind:class	line:146
+STrack	../src/lib/tracker/multitracker.py	/^class STrack(BaseTrack):$/;"	kind:class	line:19
+STrack	../src/lib/tracker2/multitracker.py	/^class STrack(BaseTrack):$/;"	kind:class	line:19
+Struct	../src/lib/opts.py	/^    class Struct:$/;"	kind:class	line:235
+Timer	../src/lib/tracking_utils/timer.py	/^class Timer(object):$/;"	kind:class	line:11
+TrackState	../src/lib/tracker/basetrack.py	/^class TrackState(object):$/;"	kind:class	line:5
+TrackState	../src/lib/tracker2/basetrack.py	/^class TrackState(object):$/;"	kind:class	line:5
+Tracked	../src/lib/tracker/basetrack.py	/^    Tracked = 1$/;"	kind:variable	line:7
+Tracked	../src/lib/tracker2/basetrack.py	/^    Tracked = 1$/;"	kind:variable	line:7
+Tree	../src/lib/models/networks/dlav0.py	/^class Tree(nn.Module):$/;"	kind:class	line:165
+Tree	../src/lib/models/networks/pose_dla_dcn.py	/^class Tree(nn.Module):$/;"	kind:class	line:167
+TripletLoss	../src/lib/models/losses.py	/^class TripletLoss(nn.Module):$/;"	kind:class	line:240
+USE_TENSORBOARD	../src/lib/logger.py	/^  USE_TENSORBOARD = False$/;"	kind:variable	line:15
+USE_TENSORBOARD	../src/lib/logger.py	/^USE_TENSORBOARD = True$/;"	kind:variable	line:10
+VideoWriter	../src/track.py	/^class VideoWriter:$/;"	kind:class	line:26
+_C	../src/lib/models/networks/config/default.py	/^_C = CN()$/;"	kind:variable	line:7
+_DCNv2	../src/lib/models/networks/DCNv2/dcn_v2.py	/^class _DCNv2(Function):$/;"	kind:class	line:16
+_DCNv2	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^class _DCNv2(Function):$/;"	kind:class	line:16
+_DCNv2Pooling	../src/lib/models/networks/DCNv2/dcn_v2.py	/^class _DCNv2Pooling(Function):$/;"	kind:class	line:132
+_DCNv2Pooling	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^class _DCNv2Pooling(Function):$/;"	kind:class	line:132
+_DataParallel	../src/lib/models/data_parallel.py	/^class _DataParallel(Module):$/;"	kind:class	line:10
+__getitem__	../src/lib/datasets/dataset/jde.py	/^    def __getitem__(self, files_index):$/;"	kind:member	line:150
+__getitem__	../src/lib/datasets/dataset/jde.py	/^    def __getitem__(self, files_index):$/;"	kind:member	line:411
+__getitem__	../src/lib/datasets/dataset/jde.py	/^    def __getitem__(self, files_index):$/;"	kind:member	line:521
+__getitem__	../src/lib/datasets/dataset/jde.py	/^    def __getitem__(self, idx):$/;"	kind:member	line:64
+__init__	../src/lib/datasets/dataset/jde.py	/^    def __init__(self, opt, root, paths, img_size=(1088, 608), augment=False, transforms=None):$/;"	kind:member	line:355
+__init__	../src/lib/datasets/dataset/jde.py	/^    def __init__(self, path, img_size=(1088, 608)):$/;"	kind:member	line:23
+__init__	../src/lib/datasets/dataset/jde.py	/^    def __init__(self, path, img_size=(1088, 608)):$/;"	kind:member	line:87
+__init__	../src/lib/datasets/dataset/jde.py	/^    def __init__(self, path, img_size=(1088, 608), augment=False, transforms=None):$/;"	kind:member	line:135
+__init__	../src/lib/datasets/dataset/jde.py	/^    def __init__(self, root, paths, img_size=(1088, 608), augment=False, transforms=None):$/;"	kind:member	line:468
+__init__	../src/lib/logger.py	/^  def __init__(self, opt):$/;"	kind:member	line:18
+__init__	../src/lib/models/data_parallel.py	/^    def __init__(self, module, device_ids=None, output_device=None, dim=0, chunk_sizes=None):$/;"	kind:member	line:44
+__init__	../src/lib/models/losses.py	/^    def __init__(self, margin=0.3, mutual_flag=False):$/;"	kind:member	line:249
+__init__	../src/lib/models/losses.py	/^  def __init__(self):$/;"	kind:member	line:116
+__init__	../src/lib/models/losses.py	/^  def __init__(self):$/;"	kind:member	line:131
+__init__	../src/lib/models/losses.py	/^  def __init__(self):$/;"	kind:member	line:140
+__init__	../src/lib/models/losses.py	/^  def __init__(self):$/;"	kind:member	line:152
+__init__	../src/lib/models/losses.py	/^  def __init__(self):$/;"	kind:member	line:166
+__init__	../src/lib/models/losses.py	/^  def __init__(self):$/;"	kind:member	line:178
+__init__	../src/lib/models/losses.py	/^  def __init__(self):$/;"	kind:member	line:188
+__init__	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def __init__(self, in_channels, out_channels,$/;"	kind:member	line:59
+__init__	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def __init__(self, in_channels, out_channels,$/;"	kind:member	line:99
+__init__	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def __init__(self,$/;"	kind:member	line:189
+__init__	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def __init__(self,$/;"	kind:member	line:225
+__init__	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def __init__(self, in_channels, out_channels,$/;"	kind:member	line:59
+__init__	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def __init__(self, in_channels, out_channels,$/;"	kind:member	line:99
+__init__	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def __init__(self,$/;"	kind:member	line:189
+__init__	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def __init__(self,$/;"	kind:member	line:225
+__init__	../src/lib/models/networks/dlav0.py	/^    def __init__(self):$/;"	kind:member	line:415
+__init__	../src/lib/models/networks/dlav0.py	/^    def __init__(self, base_name, heads,$/;"	kind:member	line:528
+__init__	../src/lib/models/networks/dlav0.py	/^    def __init__(self, channels, scales=(1, 2, 4, 8, 16), in_channels=None):$/;"	kind:member	line:494
+__init__	../src/lib/models/networks/dlav0.py	/^    def __init__(self, in_channels, out_channels, kernel_size, residual):$/;"	kind:member	line:145
+__init__	../src/lib/models/networks/dlav0.py	/^    def __init__(self, inplanes, planes, stride=1, dilation=1):$/;"	kind:member	line:104
+__init__	../src/lib/models/networks/dlav0.py	/^    def __init__(self, inplanes, planes, stride=1, dilation=1):$/;"	kind:member	line:29
+__init__	../src/lib/models/networks/dlav0.py	/^    def __init__(self, inplanes, planes, stride=1, dilation=1):$/;"	kind:member	line:62
+__init__	../src/lib/models/networks/dlav0.py	/^    def __init__(self, levels, block, in_channels, out_channels, stride=1,$/;"	kind:member	line:166
+__init__	../src/lib/models/networks/dlav0.py	/^    def __init__(self, levels, channels, num_classes=1000,$/;"	kind:member	line:222
+__init__	../src/lib/models/networks/dlav0.py	/^    def __init__(self, node_kernel, out_dim, channels, up_factors):$/;"	kind:member	line:435
+__init__	../src/lib/models/networks/pose_dla_dcn.py	/^    def __init__(self):$/;"	kind:member	line:318
+__init__	../src/lib/models/networks/pose_dla_dcn.py	/^    def __init__(self, base_name, heads, pretrained, down_ratio, final_kernel,$/;"	kind:member	line:427
+__init__	../src/lib/models/networks/pose_dla_dcn.py	/^    def __init__(self, chi, cho):$/;"	kind:member	line:345
+__init__	../src/lib/models/networks/pose_dla_dcn.py	/^    def __init__(self, in_channels, out_channels, kernel_size, residual):$/;"	kind:member	line:147
+__init__	../src/lib/models/networks/pose_dla_dcn.py	/^    def __init__(self, inplanes, planes, stride=1, dilation=1):$/;"	kind:member	line:106
+__init__	../src/lib/models/networks/pose_dla_dcn.py	/^    def __init__(self, inplanes, planes, stride=1, dilation=1):$/;"	kind:member	line:31
+__init__	../src/lib/models/networks/pose_dla_dcn.py	/^    def __init__(self, inplanes, planes, stride=1, dilation=1):$/;"	kind:member	line:64
+__init__	../src/lib/models/networks/pose_dla_dcn.py	/^    def __init__(self, levels, block, in_channels, out_channels, stride=1,$/;"	kind:member	line:168
+__init__	../src/lib/models/networks/pose_dla_dcn.py	/^    def __init__(self, levels, channels, num_classes=1000,$/;"	kind:member	line:224
+__init__	../src/lib/models/networks/pose_dla_dcn.py	/^    def __init__(self, o, channels, up_f):$/;"	kind:member	line:361
+__init__	../src/lib/models/networks/pose_dla_dcn.py	/^    def __init__(self, scale, mode):$/;"	kind:member	line:416
+__init__	../src/lib/models/networks/pose_dla_dcn.py	/^    def __init__(self, startp, channels, scales, in_channels=None):$/;"	kind:member	line:390
+__init__	../src/lib/models/networks/pose_hrnet.py	/^    def __init__(self, cfg, heads):$/;"	kind:member	line:274
+__init__	../src/lib/models/networks/pose_hrnet.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	kind:member	line:29
+__init__	../src/lib/models/networks/pose_hrnet.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	kind:member	line:61
+__init__	../src/lib/models/networks/pose_hrnet.py	/^    def __init__(self, num_branches, blocks, num_blocks, num_inchannels,$/;"	kind:member	line:100
+__init__	../src/lib/models/networks/resnet_dcn.py	/^    def __init__(self, block, layers, heads, head_conv):$/;"	kind:member	line:131
+__init__	../src/lib/models/networks/resnet_dcn.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	kind:member	line:40
+__init__	../src/lib/models/networks/resnet_dcn.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	kind:member	line:72
+__init__	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def __init__(self, block, layers, heads, head_conv):$/;"	kind:member	line:131
+__init__	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def __init__(self, chi, cho):$/;"	kind:member	line:280
+__init__	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	kind:member	line:40
+__init__	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	kind:member	line:72
+__init__	../src/lib/opts.py	/^      def __init__(self, entries):$/;"	kind:member	line:236
+__init__	../src/lib/opts.py	/^  def __init__(self):$/;"	kind:member	line:10
+__init__	../src/lib/tracker/multitracker.py	/^    def __init__(self, opt, frame_rate=30):$/;"	kind:member	line:168
+__init__	../src/lib/tracker/multitracker.py	/^    def __init__(self, tlwh, score, temp_feat, buffer_size=30):$/;"	kind:member	line:21
+__init__	../src/lib/tracker2/multitracker.py	/^    def __init__(self, opt, frame_rate=30):$/;"	kind:member	line:168
+__init__	../src/lib/tracker2/multitracker.py	/^    def __init__(self, tlwh, score, temp_feat, buffer_size=30):$/;"	kind:member	line:21
+__init__	../src/lib/tracking_utils/evaluation.py	/^    def __init__(self, data_root, seq_name, data_type):$/;"	kind:member	line:12
+__init__	../src/lib/tracking_utils/kalman_filter.py	/^    def __init__(self):$/;"	kind:member	line:39
+__init__	../src/lib/tracking_utils/timer.py	/^    def __init__(self):$/;"	kind:member	line:13
+__init__	../src/lib/trains/base_trainer.py	/^  def __init__($/;"	kind:member	line:24
+__init__	../src/lib/trains/base_trainer.py	/^  def __init__(self, model, loss):$/;"	kind:member	line:13
+__init__	../src/lib/trains/mot.py	/^    def __init__(self, opt):$/;"	kind:member	line:20
+__init__	../src/lib/trains/mot.py	/^    def __init__(self, opt, model, optimizer=None):$/;"	kind:member	line:87
+__init__	../src/lib/utils/utils.py	/^    def __init__(self):$/;"	kind:member	line:10
+__init__	../src/track.py	/^    def __init__(self,save_path,dataloader):$/;"	kind:member	line:27
+__init__.py	../src/lib/models/networks/config/__init__.py	1;"	kind:file	line:1
+__iter__	../src/lib/datasets/dataset/jde.py	/^    def __iter__(self):$/;"	kind:member	line:106
+__iter__	../src/lib/datasets/dataset/jde.py	/^    def __iter__(self):$/;"	kind:member	line:39
+__len__	../src/lib/datasets/dataset/jde.py	/^    def __len__(self):$/;"	kind:member	line:130
+__len__	../src/lib/datasets/dataset/jde.py	/^    def __len__(self):$/;"	kind:member	line:238
+__len__	../src/lib/datasets/dataset/jde.py	/^    def __len__(self):$/;"	kind:member	line:82
+__next__	../src/lib/datasets/dataset/jde.py	/^    def __next__(self):$/;"	kind:member	line:110
+__next__	../src/lib/datasets/dataset/jde.py	/^    def __next__(self):$/;"	kind:member	line:43
+__repr__	../src/lib/tracker/multitracker.py	/^    def __repr__(self):$/;"	kind:member	line:163
+__repr__	../src/lib/tracker2/multitracker.py	/^    def __repr__(self):$/;"	kind:member	line:163
+_check_branches	../src/lib/models/networks/pose_hrnet.py	/^    def _check_branches(self, num_branches, blocks, num_blocks,$/;"	kind:member	line:117
+_count	../src/lib/tracker/basetrack.py	/^    _count = 0$/;"	kind:variable	line:13
+_count	../src/lib/tracker2/basetrack.py	/^    _count = 0$/;"	kind:variable	line:13
+_gather_feat	../src/lib/models/utils.py	/^def _gather_feat(feat, ind, mask=None):$/;"	kind:function	line:12
+_get_deconv_cfg	../src/lib/models/networks/resnet_dcn.py	/^    def _get_deconv_cfg(self, deconv_kernel, index):$/;"	kind:member	line:195
+_get_deconv_cfg	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def _get_deconv_cfg(self, deconv_kernel):$/;"	kind:member	line:201
+_get_losses	../src/lib/trains/base_trainer.py	/^  def _get_losses(self, opt):$/;"	kind:member	line:112
+_get_losses	../src/lib/trains/mot.py	/^    def _get_losses(self, opt):$/;"	kind:member	line:90
+_indices_to_matches	../src/lib/tracker/matching.py	/^def _indices_to_matches(cost_matrix, indices, thresh):$/;"	kind:function	line:26
+_indices_to_matches	../src/lib/tracker2/matching.py	/^def _indices_to_matches(cost_matrix, indices, thresh):$/;"	kind:function	line:26
+_init_paths.py	../src/_init_paths.py	1;"	kind:file	line:1
+_make_branches	../src/lib/models/networks/pose_hrnet.py	/^    def _make_branches(self, num_branches, block, num_blocks, num_channels):$/;"	kind:member	line:175
+_make_conv_level	../src/lib/models/networks/dlav0.py	/^    def _make_conv_level(self, inplanes, planes, convs, stride=1, dilation=1):$/;"	kind:member	line:277
+_make_conv_level	../src/lib/models/networks/pose_dla_dcn.py	/^    def _make_conv_level(self, inplanes, planes, convs, stride=1, dilation=1):$/;"	kind:member	line:273
+_make_deconv_layer	../src/lib/models/networks/resnet_dcn.py	/^    def _make_deconv_layer(self, num_layers, num_filters, num_kernels):$/;"	kind:member	line:208
+_make_deconv_layer	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def _make_deconv_layer(self, num_filters, num_kernels):$/;"	kind:member	line:214
+_make_fuse_layers	../src/lib/models/networks/pose_hrnet.py	/^    def _make_fuse_layers(self):$/;"	kind:member	line:185
+_make_layer	../src/lib/models/networks/pose_hrnet.py	/^    def _make_layer(self, block, planes, blocks, stride=1):$/;"	kind:member	line:411
+_make_layer	../src/lib/models/networks/resnet_dcn.py	/^    def _make_layer(self, block, planes, blocks, stride=1):$/;"	kind:member	line:178
+_make_layer	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def _make_layer(self, block, planes, blocks, stride=1):$/;"	kind:member	line:184
+_make_level	../src/lib/models/networks/dlav0.py	/^    def _make_level(self, block, inplanes, planes, blocks, stride=1):$/;"	kind:member	line:260
+_make_level	../src/lib/models/networks/pose_dla_dcn.py	/^    def _make_level(self, block, inplanes, planes, blocks, stride=1):$/;"	kind:member	line:256
+_make_one_branch	../src/lib/models/networks/pose_hrnet.py	/^    def _make_one_branch(self, branch_index, block, num_blocks, num_channels,$/;"	kind:member	line:137
+_make_stage	../src/lib/models/networks/pose_hrnet.py	/^    def _make_stage(self, layer_config, num_inchannels,$/;"	kind:member	line:430
+_make_transition_layer	../src/lib/models/networks/pose_hrnet.py	/^    def _make_transition_layer($/;"	kind:member	line:370
+_model_factory	../src/lib/models/model.py	/^_model_factory = {$/;"	kind:variable	line:13
+_neg_loss	../src/lib/models/losses.py	/^def _neg_loss(pred, gt):$/;"	kind:function	line:42
+_nms	../src/lib/models/decode.py	/^def _nms(heat, kernel=3):$/;"	kind:function	line:9
+_not_faster_neg_loss	../src/lib/models/losses.py	/^def _not_faster_neg_loss(pred, gt):$/;"	kind:function	line:69
+_reg_loss	../src/lib/models/losses.py	/^def _reg_loss(regr, gt_regr, mask):$/;"	kind:function	line:97
+_sigmoid	../src/lib/models/utils.py	/^def _sigmoid(x):$/;"	kind:function	line:8
+_slow_neg_loss	../src/lib/models/losses.py	/^def _slow_neg_loss(pred, gt):$/;"	kind:function	line:17
+_slow_reg_loss	../src/lib/models/losses.py	/^def _slow_reg_loss(regr, gt_regr, mask):$/;"	kind:function	line:86
+_topk	../src/lib/models/decode.py	/^def _topk(scores, K=40):$/;"	kind:function	line:29
+_topk_channel	../src/lib/models/decode.py	/^def _topk_channel(scores, K=40):$/;"	kind:function	line:18
+_tranpose_and_gather_feat	../src/lib/models/utils.py	/^def _tranpose_and_gather_feat(feat, ind):$/;"	kind:function	line:22
+activate	../src/lib/tracker/basetrack.py	/^    def activate(self, *args):$/;"	kind:member	line:39
+activate	../src/lib/tracker/multitracker.py	/^    def activate(self, kalman_filter, frame_id):$/;"	kind:member	line:66
+activate	../src/lib/tracker2/basetrack.py	/^    def activate(self, *args):$/;"	kind:member	line:39
+activate	../src/lib/tracker2/multitracker.py	/^    def activate(self, kalman_filter, frame_id):$/;"	kind:member	line:66
+add_path	../src/_init_paths.py	/^def add_path(path):$/;"	kind:function	line:4
+affine_transform	../src/lib/utils/image.py	/^def affine_transform(pt, t):$/;"	kind:function	line:63
+ap_per_class	../src/lib/tracking_utils/utils.py	/^def ap_per_class(tp, conf, pred_cls, target_cls):$/;"	kind:function	line:112
+ap_per_class	../src/lib/utils/utils.py	/^def ap_per_class(tp, conf, pred_cls, target_cls):$/;"	kind:function	line:46
+author	../src/lib/models/networks/DCNv2/setup.py	/^    author="charlesshang",$/;"	kind:variable	line:59
+author	../src/lib/models/networks/DCNv2_new/setup.py	/^    author="charlesshang",$/;"	kind:variable	line:64
+backward	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def backward(ctx, grad_output):$/;"	kind:member	line:163
+backward	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def backward(ctx, grad_output):$/;"	kind:member	line:37
+backward	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def backward(ctx, grad_output):$/;"	kind:member	line:163
+backward	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def backward(ctx, grad_output):$/;"	kind:member	line:37
+base_trainer.py	../src/lib/trains/base_trainer.py	1;"	kind:file	line:1
+basetrack.py	../src/lib/tracker/basetrack.py	1;"	kind:file	line:1
+basetrack.py	../src/lib/tracker2/basetrack.py	1;"	kind:file	line:1
+bbox_iou	../src/lib/tracking_utils/utils.py	/^def bbox_iou(box1, box2, x1y1x2y2=False):$/;"	kind:function	line:194
+bbox_iou	../src/lib/utils/utils.py	/^def bbox_iou(box1, box2, x1y1x2y2=False):$/;"	kind:function	line:128
+best_i	../src/test_det.py	/^                    best_i = np.argmax(iou)$/;"	kind:variable	line:171
+blend_	../src/lib/utils/image.py	/^def blend_(alpha, image1, image2):$/;"	kind:function	line:205
+blocks_dict	../src/lib/models/networks/pose_hrnet.py	/^blocks_dict = {$/;"	kind:variable	line:266
+brightness_	../src/lib/utils/image.py	/^def brightness_(data_rng, image, gs, gs_mean, var):$/;"	kind:function	line:214
+build_targets_max	../src/lib/tracking_utils/utils.py	/^def build_targets_max(target, anchor_wh, nA, nC, nGh, nGw):$/;"	kind:function	line:225
+c	../src/test_det.py	/^        c = np.array([width \/ 2., height \/ 2.], dtype=np.float32)$/;"	kind:variable	line:98
+cardinality	../src/lib/models/networks/dlav0.py	/^    cardinality = 32$/;"	kind:variable	line:102
+cardinality	../src/lib/models/networks/pose_dla_dcn.py	/^    cardinality = 32$/;"	kind:variable	line:104
+check_gradient_dconv	../src/lib/models/networks/DCNv2/test.py	/^def check_gradient_dconv():$/;"	kind:function	line:65
+check_gradient_dconv	../src/lib/models/networks/DCNv2_new/testcpu.py	/^def check_gradient_dconv():$/;"	kind:function	line:69
+check_gradient_dconv	../src/lib/models/networks/DCNv2_new/testcuda.py	/^def check_gradient_dconv():$/;"	kind:function	line:69
+check_gradient_dpooling	../src/lib/models/networks/DCNv2/test.py	/^def check_gradient_dpooling():$/;"	kind:function	line:130
+check_gradient_dpooling	../src/lib/models/networks/DCNv2_new/testcpu.py	/^def check_gradient_dpooling():$/;"	kind:function	line:134
+check_gradient_dpooling	../src/lib/models/networks/DCNv2_new/testcuda.py	/^def check_gradient_dpooling():$/;"	kind:function	line:134
+check_pooling_zero_offset	../src/lib/models/networks/DCNv2/test.py	/^def check_pooling_zero_offset():$/;"	kind:function	line:96
+check_pooling_zero_offset	../src/lib/models/networks/DCNv2_new/testcpu.py	/^def check_pooling_zero_offset():$/;"	kind:function	line:100
+check_pooling_zero_offset	../src/lib/models/networks/DCNv2_new/testcuda.py	/^def check_pooling_zero_offset():$/;"	kind:function	line:100
+check_zero_offset	../src/lib/models/networks/DCNv2/test.py	/^def check_zero_offset():$/;"	kind:function	line:30
+check_zero_offset	../src/lib/models/networks/DCNv2_new/testcpu.py	/^def check_zero_offset():$/;"	kind:function	line:32
+check_zero_offset	../src/lib/models/networks/DCNv2_new/testcuda.py	/^def check_zero_offset():$/;"	kind:function	line:32
+chi2inv95	../src/lib/tracking_utils/kalman_filter.py	/^chi2inv95 = {$/;"	kind:variable	line:10
+clear	../src/lib/tracking_utils/timer.py	/^    def clear(self):$/;"	kind:member	line:38
+close	../src/lib/logger.py	/^  def close(self):$/;"	kind:member	line:66
+cmdclass	../src/lib/models/networks/DCNv2/setup.py	/^    cmdclass={"build_ext": torch.utils.cpp_extension.BuildExtension},$/;"	kind:variable	line:65
+cmdclass	../src/lib/models/networks/DCNv2_new/setup.py	/^    cmdclass={"build_ext": torch.utils.cpp_extension.BuildExtension},$/;"	kind:variable	line:70
+collate_fn	../src/lib/datasets/dataset/jde.py	/^def collate_fn(batch):$/;"	kind:function	line:331
+color_aug	../src/lib/utils/image.py	/^def color_aug(data_rng, image, eig_val, eig_vec):$/;"	kind:function	line:222
+compute_ap	../src/lib/tracking_utils/utils.py	/^def compute_ap(recall, precision):$/;"	kind:function	line:166
+compute_ap	../src/lib/utils/utils.py	/^def compute_ap(recall, precision):$/;"	kind:function	line:100
+compute_bin_loss	../src/lib/models/losses.py	/^def compute_bin_loss(output, target, mask):$/;"	kind:function	line:200
+compute_res_loss	../src/lib/models/losses.py	/^def compute_res_loss(output, target):$/;"	kind:function	line:196
+compute_rot_loss	../src/lib/models/losses.py	/^def compute_rot_loss(output, target_bin, target_res, mask):$/;"	kind:function	line:205
+conf	../src/test_det.py	/^                                              conf=dets[:, 4],$/;"	kind:variable	line:181
+contrast_	../src/lib/utils/image.py	/^def contrast_(data_rng, image, gs, gs_mean, var):$/;"	kind:function	line:218
+conv3x3	../src/lib/models/networks/dlav0.py	/^def conv3x3(in_planes, out_planes, stride=1):$/;"	kind:function	line:22
+conv3x3	../src/lib/models/networks/pose_dla_dcn.py	/^def conv3x3(in_planes, out_planes, stride=1):$/;"	kind:function	line:24
+conv3x3	../src/lib/models/networks/pose_hrnet.py	/^def conv3x3(in_planes, out_planes, stride=1):$/;"	kind:function	line:20
+conv3x3	../src/lib/models/networks/resnet_dcn.py	/^def conv3x3(in_planes, out_planes, stride=1):$/;"	kind:function	line:31
+conv3x3	../src/lib/models/networks/resnet_fpn_dcn.py	/^def conv3x3(in_planes, out_planes, stride=1):$/;"	kind:function	line:31
+conv_identify	../src/lib/models/networks/DCNv2/test.py	/^def conv_identify(weight, bias):$/;"	kind:function	line:18
+conv_identify	../src/lib/models/networks/DCNv2_new/testcpu.py	/^def conv_identify(weight, bias):$/;"	kind:function	line:20
+conv_identify	../src/lib/models/networks/DCNv2_new/testcuda.py	/^def conv_identify(weight, bias):$/;"	kind:function	line:20
+correct	../src/test_det.py	/^            correct = []$/;"	kind:variable	line:128
+create_model	../src/lib/models/model.py	/^def create_model(arch, heads, head_conv):$/;"	kind:function	line:21
+crop	../src/lib/utils/image.py	/^def crop(img, center, scale, output_size, rot=0):$/;"	kind:function	line:84
+ctdet_post_process	../src/lib/utils/post_process.py	/^def ctdet_post_process(dets, c, s, h, w, num_classes):$/;"	kind:function	line:9
+curr_feature	../src/lib/tracker/basetrack.py	/^    curr_feature = None$/;"	kind:variable	line:21
+curr_feature	../src/lib/tracker2/basetrack.py	/^    curr_feature = None$/;"	kind:variable	line:21
+data_cfg	../src/test_det.py	/^    data_cfg = opt.data_cfg$/;"	kind:variable	line:60
+data_cfg	../src/test_emb.py	/^    data_cfg = opt.data_cfg$/;"	kind:variable	line:34
+data_cfg_dict	../src/test_det.py	/^    data_cfg_dict = json.load(f)$/;"	kind:variable	line:62
+data_cfg_dict	../src/test_emb.py	/^    data_cfg_dict = json.load(f)$/;"	kind:variable	line:36
+data_parallel	../src/lib/models/data_parallel.py	/^def data_parallel(module, inputs, device_ids=None, output_device=None, dim=0, module_kwargs=None):$/;"	kind:function	line:87
+data_parallel.py	../src/lib/models/data_parallel.py	1;"	kind:file	line:1
+data_root	../src/track.py	/^         data_root=data_root,$/;"	kind:variable	line:244
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT15\/images\/test')$/;"	kind:variable	line:195
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT15\/images\/train')$/;"	kind:variable	line:164
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT15\/images\/train')$/;"	kind:variable	line:226
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT16\/test')$/;"	kind:variable	line:182
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT16\/train')$/;"	kind:variable	line:173
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT17\/images\/test')$/;"	kind:variable	line:204
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT17\/images\/train')$/;"	kind:variable	line:213
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT20\/images\/test')$/;"	kind:variable	line:240
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT20\/images\/train')$/;"	kind:variable	line:233
+dataloader	../src/test_det.py	/^    dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=False,$/;"	kind:variable	line:81
+dataloader	../src/test_emb.py	/^    dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=False,$/;"	kind:variable	line:55
+dataset	../src/test_det.py	/^    dataset = DetDataset(dataset_root, test_path, img_size, augment=False, transforms=transforms)$/;"	kind:variable	line:80
+dataset	../src/test_emb.py	/^    dataset = JointDataset(opt, dataset_root, test_paths, img_size, augment=False, transforms=transforms)$/;"	kind:variable	line:54
+dataset_factory.py	../src/lib/datasets/dataset_factory.py	1;"	kind:file	line:1
+dataset_root	../src/test_det.py	/^    dataset_root = data_cfg_dict['root']$/;"	kind:variable	line:66
+dataset_root	../src/test_emb.py	/^    dataset_root = data_cfg_dict['root']$/;"	kind:variable	line:40
+dcn_v2.py	../src/lib/models/networks/DCNv2/dcn_v2.py	1;"	kind:file	line:1
+dcn_v2.py	../src/lib/models/networks/DCNv2_new/dcn_v2.py	1;"	kind:file	line:1
+dcn_v2_conv	../src/lib/models/networks/DCNv2/dcn_v2.py	/^dcn_v2_conv = _DCNv2.apply$/;"	kind:variable	line:54
+dcn_v2_conv	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^dcn_v2_conv = _DCNv2.apply$/;"	kind:variable	line:54
+dcn_v2_pooling	../src/lib/models/networks/DCNv2/dcn_v2.py	/^dcn_v2_pooling = _DCNv2Pooling.apply$/;"	kind:variable	line:184
+dcn_v2_pooling	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^dcn_v2_pooling = _DCNv2Pooling.apply$/;"	kind:variable	line:184
+debug	../src/lib/trains/base_trainer.py	/^  def debug(self, batch, output, iter_id):$/;"	kind:member	line:106
+decode.py	../src/lib/models/decode.py	1;"	kind:file	line:1
+decode_delta	../src/lib/tracking_utils/utils.py	/^def decode_delta(delta, fg_anchor_list):$/;"	kind:function	line:333
+decode_delta_map	../src/lib/tracking_utils/utils.py	/^def decode_delta_map(delta_map, anchors):$/;"	kind:function	line:343
+default.py	../src/lib/models/networks/config/default.py	1;"	kind:file	line:1
+default_resolution	../src/lib/datasets/dataset/jde.py	/^    default_resolution = [1088, 608]$/;"	kind:variable	line:350
+deformable_groups	../src/lib/models/networks/DCNv2/test.py	/^deformable_groups = 1$/;"	kind:variable	line:12
+deformable_groups	../src/lib/models/networks/DCNv2_new/testcpu.py	/^deformable_groups = 1$/;"	kind:variable	line:14
+deformable_groups	../src/lib/models/networks/DCNv2_new/testcuda.py	/^deformable_groups = 1$/;"	kind:variable	line:14
+demo	../src/demo.py	/^def demo(opt):$/;"	kind:function	line:20
+demo.py	../src/demo.py	1;"	kind:file	line:1
+description	../src/lib/models/networks/DCNv2/setup.py	/^    description="deformable convolutional networks",$/;"	kind:variable	line:61
+description	../src/lib/models/networks/DCNv2_new/setup.py	/^    description="deformable convolutional networks",$/;"	kind:variable	line:66
+detected	../src/test_det.py	/^                detected = []$/;"	kind:variable	line:164
+dets	../src/test_det.py	/^            dets = detections[si]$/;"	kind:variable	line:114
+dets	../src/test_det.py	/^            dets = dets.unsqueeze(0)$/;"	kind:variable	line:115
+dets	../src/test_det.py	/^            dets = merge_outputs(opt, [dets])[1]$/;"	kind:variable	line:117
+dets	../src/test_det.py	/^            dets = post_process(opt, dets, meta)$/;"	kind:variable	line:116
+dla102	../src/lib/models/networks/dlav0.py	/^def dla102(pretrained=None, **kwargs):  # DLA-102$/;"	kind:function	line:378
+dla102x	../src/lib/models/networks/dlav0.py	/^def dla102x(pretrained=None, **kwargs):  # DLA-X-102$/;"	kind:function	line:387
+dla102x2	../src/lib/models/networks/dlav0.py	/^def dla102x2(pretrained=None, **kwargs):  # DLA-X-102 64$/;"	kind:function	line:396
+dla169	../src/lib/models/networks/dlav0.py	/^def dla169(pretrained=None, **kwargs):  # DLA-169$/;"	kind:function	line:405
+dla34	../src/lib/models/networks/dlav0.py	/^def dla34(pretrained, **kwargs):  # DLA-34$/;"	kind:function	line:319
+dla34	../src/lib/models/networks/pose_dla_dcn.py	/^def dla34(pretrained=True, **kwargs):  # DLA-34$/;"	kind:function	line:308
+dla46_c	../src/lib/models/networks/dlav0.py	/^def dla46_c(pretrained=None, **kwargs):  # DLA-46-C$/;"	kind:function	line:328
+dla46x_c	../src/lib/models/networks/dlav0.py	/^def dla46x_c(pretrained=None, **kwargs):  # DLA-X-46-C$/;"	kind:function	line:338
+dla60	../src/lib/models/networks/dlav0.py	/^def dla60(pretrained=None, **kwargs):  # DLA-60$/;"	kind:function	line:358
+dla60x	../src/lib/models/networks/dlav0.py	/^def dla60x(pretrained=None, **kwargs):  # DLA-X-60$/;"	kind:function	line:368
+dla60x_c	../src/lib/models/networks/dlav0.py	/^def dla60x_c(pretrained, **kwargs):  # DLA-X-60-C$/;"	kind:function	line:348
+dlav0.py	../src/lib/models/networks/dlav0.py	1;"	kind:file	line:1
+draw_dense_reg	../src/lib/utils/image.py	/^def draw_dense_reg(regmap, heatmap, center, value, radius, is_offset=False):$/;"	kind:function	line:143
+draw_msra_gaussian	../src/lib/utils/image.py	/^def draw_msra_gaussian(heatmap, center, sigma):$/;"	kind:function	line:175
+draw_umich_gaussian	../src/lib/utils/image.py	/^def draw_umich_gaussian(heatmap, center, radius, k=1):$/;"	kind:function	line:126
+emb_scale	../src/test_emb.py	/^        emb_scale = math.sqrt(2) * math.log(opt.nID - 1)$/;"	kind:variable	line:64
+embedding	../src/test_emb.py	/^    embedding = F.normalize(embedding, dim=1)$/;"	kind:variable	line:91
+embedding	../src/test_emb.py	/^    embedding = torch.stack(embedding, dim=0).cuda()$/;"	kind:variable	line:85
+embedding_distance	../src/lib/tracker/matching.py	/^def embedding_distance(tracks, detections, metric='cosine'):$/;"	kind:function	line:91
+embedding_distance	../src/lib/tracker2/matching.py	/^def embedding_distance(tracks, detections, metric='cosine'):$/;"	kind:function	line:91
+encode_delta	../src/lib/tracking_utils/utils.py	/^def encode_delta(gt_box_list, fg_anchor_list):$/;"	kind:function	line:322
+encode_delta	../src/lib/utils/utils.py	/^def encode_delta(gt_box_list, fg_anchor_list):$/;"	kind:function	line:170
+end_frame	../src/lib/tracker/basetrack.py	/^    def end_frame(self):$/;"	kind:member	line:31
+end_frame	../src/lib/tracker2/basetrack.py	/^    def end_frame(self):$/;"	kind:member	line:31
+eval_file	../src/lib/tracking_utils/evaluation.py	/^    def eval_file(self, filename):$/;"	kind:member	line:78
+eval_frame	../src/lib/tracking_utils/evaluation.py	/^    def eval_frame(self, frame_id, trk_tlwhs, trk_ids, rtn_events=False):$/;"	kind:member	line:30
+eval_seq	../src/track.py	/^def eval_seq(opt, dataloader, data_type, result_filename, save_dir=None, show_image=True, frame_rate=30):$/;"	kind:function	line:59
+evaluation.py	../src/lib/tracking_utils/evaluation.py	1;"	kind:file	line:1
+example_dconv	../src/lib/models/networks/DCNv2/test.py	/^def example_dconv():$/;"	kind:function	line:165
+example_dconv	../src/lib/models/networks/DCNv2_new/testcpu.py	/^def example_dconv():$/;"	kind:function	line:169
+example_dconv	../src/lib/models/networks/DCNv2_new/testcuda.py	/^def example_dconv():$/;"	kind:function	line:169
+example_dpooling	../src/lib/models/networks/DCNv2/test.py	/^def example_dpooling():$/;"	kind:function	line:179
+example_dpooling	../src/lib/models/networks/DCNv2_new/testcpu.py	/^def example_dpooling():$/;"	kind:function	line:183
+example_dpooling	../src/lib/models/networks/DCNv2_new/testcuda.py	/^def example_dpooling():$/;"	kind:function	line:183
+example_mdpooling	../src/lib/models/networks/DCNv2/test.py	/^def example_mdpooling():$/;"	kind:function	line:222
+example_mdpooling	../src/lib/models/networks/DCNv2_new/testcpu.py	/^def example_mdpooling():$/;"	kind:function	line:226
+example_mdpooling	../src/lib/models/networks/DCNv2_new/testcuda.py	/^def example_mdpooling():$/;"	kind:function	line:226
+exp_name	../src/track.py	/^         exp_name='MOT15_val_all_dla34',$/;"	kind:variable	line:246
+expansion	../src/lib/models/networks/dlav0.py	/^    expansion = 2$/;"	kind:variable	line:101
+expansion	../src/lib/models/networks/dlav0.py	/^    expansion = 2$/;"	kind:variable	line:60
+expansion	../src/lib/models/networks/pose_dla_dcn.py	/^    expansion = 2$/;"	kind:variable	line:103
+expansion	../src/lib/models/networks/pose_dla_dcn.py	/^    expansion = 2$/;"	kind:variable	line:62
+expansion	../src/lib/models/networks/pose_hrnet.py	/^    expansion = 1$/;"	kind:variable	line:27
+expansion	../src/lib/models/networks/pose_hrnet.py	/^    expansion = 4$/;"	kind:variable	line:59
+expansion	../src/lib/models/networks/resnet_dcn.py	/^    expansion = 1$/;"	kind:variable	line:38
+expansion	../src/lib/models/networks/resnet_dcn.py	/^    expansion = 4$/;"	kind:variable	line:70
+expansion	../src/lib/models/networks/resnet_fpn_dcn.py	/^    expansion = 1$/;"	kind:variable	line:38
+expansion	../src/lib/models/networks/resnet_fpn_dcn.py	/^    expansion = 4$/;"	kind:variable	line:70
+ext_modules	../src/lib/models/networks/DCNv2/setup.py	/^    ext_modules=get_extensions(),$/;"	kind:variable	line:64
+ext_modules	../src/lib/models/networks/DCNv2_new/setup.py	/^    ext_modules=get_extensions(),$/;"	kind:variable	line:69
+f	../src/test_det.py	/^    f = open(data_cfg)$/;"	kind:variable	line:61
+f	../src/test_emb.py	/^    f = open(data_cfg)$/;"	kind:variable	line:35
+far_levels	../src/test_emb.py	/^    far_levels = [1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1]$/;"	kind:variable	line:99
+features	../src/lib/tracker/basetrack.py	/^    features = []$/;"	kind:variable	line:20
+features	../src/lib/tracker2/basetrack.py	/^    features = []$/;"	kind:variable	line:20
+fill_fc_weights	../src/lib/models/networks/dlav0.py	/^def fill_fc_weights(layers):$/;"	kind:function	line:518
+fill_fc_weights	../src/lib/models/networks/pose_dla_dcn.py	/^def fill_fc_weights(layers):$/;"	kind:function	line:325
+fill_fc_weights	../src/lib/models/networks/pose_hrnet.py	/^def fill_fc_weights(layers):$/;"	kind:function	line:532
+fill_fc_weights	../src/lib/models/networks/resnet_dcn.py	/^def fill_fc_weights(layers):$/;"	kind:function	line:120
+fill_fc_weights	../src/lib/models/networks/resnet_fpn_dcn.py	/^def fill_fc_weights(layers):$/;"	kind:function	line:120
+fill_up_weights	../src/lib/models/networks/dlav0.py	/^def fill_up_weights(up):$/;"	kind:function	line:422
+fill_up_weights	../src/lib/models/networks/pose_dla_dcn.py	/^def fill_up_weights(up):$/;"	kind:function	line:332
+fill_up_weights	../src/lib/models/networks/resnet_dcn.py	/^def fill_up_weights(up):$/;"	kind:function	line:109
+fill_up_weights	../src/lib/models/networks/resnet_fpn_dcn.py	/^def fill_up_weights(up):$/;"	kind:function	line:109
+flip	../src/lib/utils/image.py	/^def flip(img):$/;"	kind:function	line:16
+flip_lr	../src/lib/models/utils.py	/^def flip_lr(x, flip_idx):$/;"	kind:function	line:33
+flip_lr_off	../src/lib/models/utils.py	/^def flip_lr_off(x, flip_idx):$/;"	kind:function	line:41
+flip_tensor	../src/lib/models/utils.py	/^def flip_tensor(x):$/;"	kind:function	line:28
+float3	../src/lib/tracking_utils/utils.py	/^def float3(x):  # format floats to 3 decimals$/;"	kind:function	line:23
+forward	../src/lib/models/data_parallel.py	/^    def forward(self, *inputs, **kwargs):$/;"	kind:member	line:64
+forward	../src/lib/models/losses.py	/^    def forward(self, inputs, targets):$/;"	kind:member	line:255
+forward	../src/lib/models/losses.py	/^  def forward(self, out, target):$/;"	kind:member	line:120
+forward	../src/lib/models/losses.py	/^  def forward(self, output, mask, ind, rotbin, rotres):$/;"	kind:member	line:191
+forward	../src/lib/models/losses.py	/^  def forward(self, output, mask, ind, target):$/;"	kind:member	line:134
+forward	../src/lib/models/losses.py	/^  def forward(self, output, mask, ind, target):$/;"	kind:member	line:143
+forward	../src/lib/models/losses.py	/^  def forward(self, output, mask, ind, target):$/;"	kind:member	line:155
+forward	../src/lib/models/losses.py	/^  def forward(self, output, mask, ind, target):$/;"	kind:member	line:169
+forward	../src/lib/models/losses.py	/^  def forward(self, output, mask, ind, target):$/;"	kind:member	line:181
+forward	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def forward(ctx, input, offset, mask, weight, bias,$/;"	kind:member	line:18
+forward	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def forward(ctx, input, rois, offset,$/;"	kind:member	line:134
+forward	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def forward(self, input):$/;"	kind:member	line:118
+forward	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def forward(self, input, offset, mask):$/;"	kind:member	line:83
+forward	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def forward(self, input, rois):$/;"	kind:member	line:259
+forward	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def forward(self, input, rois, offset):$/;"	kind:member	line:208
+forward	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def forward(ctx, input, offset, mask, weight, bias,$/;"	kind:member	line:18
+forward	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def forward(ctx, input, rois, offset,$/;"	kind:member	line:134
+forward	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def forward(self, input):$/;"	kind:member	line:118
+forward	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def forward(self, input, offset, mask):$/;"	kind:member	line:83
+forward	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def forward(self, input, rois):$/;"	kind:member	line:259
+forward	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def forward(self, input, rois, offset):$/;"	kind:member	line:208
+forward	../src/lib/models/networks/dlav0.py	/^    def forward(self, *x):$/;"	kind:member	line:154
+forward	../src/lib/models/networks/dlav0.py	/^    def forward(self, layers):$/;"	kind:member	line:476
+forward	../src/lib/models/networks/dlav0.py	/^    def forward(self, layers):$/;"	kind:member	line:509
+forward	../src/lib/models/networks/dlav0.py	/^    def forward(self, x):$/;"	kind:member	line:289
+forward	../src/lib/models/networks/dlav0.py	/^    def forward(self, x):$/;"	kind:member	line:418
+forward	../src/lib/models/networks/dlav0.py	/^    def forward(self, x):$/;"	kind:member	line:594
+forward	../src/lib/models/networks/dlav0.py	/^    def forward(self, x, residual=None):$/;"	kind:member	line:123
+forward	../src/lib/models/networks/dlav0.py	/^    def forward(self, x, residual=None):$/;"	kind:member	line:42
+forward	../src/lib/models/networks/dlav0.py	/^    def forward(self, x, residual=None):$/;"	kind:member	line:79
+forward	../src/lib/models/networks/dlav0.py	/^    def forward(self, x, residual=None, children=None):$/;"	kind:member	line:205
+forward	../src/lib/models/networks/pose_dla_dcn.py	/^    def forward(self, *x):$/;"	kind:member	line:156
+forward	../src/lib/models/networks/pose_dla_dcn.py	/^    def forward(self, layers):$/;"	kind:member	line:406
+forward	../src/lib/models/networks/pose_dla_dcn.py	/^    def forward(self, layers, startp, endp):$/;"	kind:member	line:379
+forward	../src/lib/models/networks/pose_dla_dcn.py	/^    def forward(self, x):$/;"	kind:member	line:285
+forward	../src/lib/models/networks/pose_dla_dcn.py	/^    def forward(self, x):$/;"	kind:member	line:321
+forward	../src/lib/models/networks/pose_dla_dcn.py	/^    def forward(self, x):$/;"	kind:member	line:353
+forward	../src/lib/models/networks/pose_dla_dcn.py	/^    def forward(self, x):$/;"	kind:member	line:421
+forward	../src/lib/models/networks/pose_dla_dcn.py	/^    def forward(self, x):$/;"	kind:member	line:469
+forward	../src/lib/models/networks/pose_dla_dcn.py	/^    def forward(self, x, residual=None):$/;"	kind:member	line:125
+forward	../src/lib/models/networks/pose_dla_dcn.py	/^    def forward(self, x, residual=None):$/;"	kind:member	line:44
+forward	../src/lib/models/networks/pose_dla_dcn.py	/^    def forward(self, x, residual=None):$/;"	kind:member	line:81
+forward	../src/lib/models/networks/pose_dla_dcn.py	/^    def forward(self, x, residual=None, children=None):$/;"	kind:member	line:207
+forward	../src/lib/models/networks/pose_hrnet.py	/^    def forward(self, x):$/;"	kind:member	line:245
+forward	../src/lib/models/networks/pose_hrnet.py	/^    def forward(self, x):$/;"	kind:member	line:39
+forward	../src/lib/models/networks/pose_hrnet.py	/^    def forward(self, x):$/;"	kind:member	line:462
+forward	../src/lib/models/networks/pose_hrnet.py	/^    def forward(self, x):$/;"	kind:member	line:76
+forward	../src/lib/models/networks/resnet_dcn.py	/^    def forward(self, x):$/;"	kind:member	line:247
+forward	../src/lib/models/networks/resnet_dcn.py	/^    def forward(self, x):$/;"	kind:member	line:50
+forward	../src/lib/models/networks/resnet_dcn.py	/^    def forward(self, x):$/;"	kind:member	line:87
+forward	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def forward(self, x):$/;"	kind:member	line:249
+forward	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def forward(self, x):$/;"	kind:member	line:292
+forward	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def forward(self, x):$/;"	kind:member	line:50
+forward	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def forward(self, x):$/;"	kind:member	line:87
+forward	../src/lib/trains/base_trainer.py	/^  def forward(self, batch):$/;"	kind:member	line:18
+forward	../src/lib/trains/mot.py	/^    def forward(self, outputs, batch):$/;"	kind:member	line:38
+frame_id	../src/lib/tracker/basetrack.py	/^    frame_id = 0$/;"	kind:variable	line:24
+frame_id	../src/lib/tracker2/basetrack.py	/^    frame_id = 0$/;"	kind:variable	line:24
+fuse_motion	../src/lib/tracker/matching.py	/^def fuse_motion(kf, cost_matrix, tracks, detections, only_position=False, lambda_=0.98):$/;"	kind:function	line:123
+fuse_motion	../src/lib/tracker2/matching.py	/^def fuse_motion(kf, cost_matrix, tracks, detections, only_position=False, lambda_=0.98):$/;"	kind:function	line:123
+gate_cost_matrix	../src/lib/tracker/matching.py	/^def gate_cost_matrix(kf, cost_matrix, tracks, detections, only_position=False):$/;"	kind:function	line:110
+gate_cost_matrix	../src/lib/tracker2/matching.py	/^def gate_cost_matrix(kf, cost_matrix, tracks, detections, only_position=False):$/;"	kind:function	line:110
+gather	../src/lib/models/data_parallel.py	/^    def gather(self, outputs, output_device):$/;"	kind:member	line:83
+gating_distance	../src/lib/tracking_utils/kalman_filter.py	/^    def gating_distance(self, mean, covariance, measurements,$/;"	kind:member	line:227
+gaussian2D	../src/lib/utils/image.py	/^def gaussian2D(shape, sigma=1):$/;"	kind:function	line:118
+gaussian_radius	../src/lib/utils/image.py	/^def gaussian_radius(det_size, min_overlap=0.7):$/;"	kind:function	line:95
+gen_caltech_path	../src/gen_data_path.py	/^def gen_caltech_path(root_path):$/;"	kind:function	line:6
+gen_data_path.py	../src/gen_data_path.py	1;"	kind:file	line:1
+gen_labels_15.py	../src/gen_labels_15.py	1;"	kind:file	line:1
+gen_labels_20.py	../src/gen_labels_20.py	1;"	kind:file	line:1
+generate_anchor	../src/lib/tracking_utils/utils.py	/^def generate_anchor(nGh, nGw, anchor_wh):$/;"	kind:function	line:311
+generate_anchors	../src/lib/utils/utils.py	/^def generate_anchors(nGh, nGw, anchor_wh):$/;"	kind:function	line:159
+get_3rd_point	../src/lib/utils/image.py	/^def get_3rd_point(a, b):$/;"	kind:function	line:69
+get_affine_transform	../src/lib/utils/image.py	/^def get_affine_transform(center,$/;"	kind:function	line:27
+get_color	../src/lib/tracking_utils/visualization.py	/^def get_color(idx):$/;"	kind:function	line:14
+get_data	../src/lib/datasets/dataset/jde.py	/^    def get_data(self, img_path, label_path):$/;"	kind:member	line:155
+get_dataset	../src/lib/datasets/dataset_factory.py	/^def get_dataset(dataset, task):$/;"	kind:function	line:8
+get_dir	../src/lib/utils/image.py	/^def get_dir(src_point, rot_rad):$/;"	kind:function	line:74
+get_extensions	../src/lib/models/networks/DCNv2/setup.py	/^def get_extensions():$/;"	kind:function	line:17
+get_extensions	../src/lib/models/networks/DCNv2_new/setup.py	/^def get_extensions():$/;"	kind:function	line:18
+get_logger	../src/lib/tracking_utils/log.py	/^def get_logger(name='root'):$/;"	kind:function	line:4
+get_model_url	../src/lib/models/networks/dlav0.py	/^def get_model_url(data='imagenet', name='dla34', hash='ba72cf86'):$/;"	kind:function	line:18
+get_model_url	../src/lib/models/networks/pose_dla_dcn.py	/^def get_model_url(data='imagenet', name='dla34', hash='ba72cf86'):$/;"	kind:function	line:20
+get_num_inchannels	../src/lib/models/networks/pose_hrnet.py	/^    def get_num_inchannels(self):$/;"	kind:member	line:242
+get_pose_net	../src/lib/models/networks/dlav0.py	/^def get_pose_net(num_layers, heads, head_conv=256, down_ratio=4):$/;"	kind:function	line:636
+get_pose_net	../src/lib/models/networks/pose_dla_dcn.py	/^def get_pose_net(num_layers, heads, head_conv=256, down_ratio=4):$/;"	kind:function	line:484
+get_pose_net	../src/lib/models/networks/pose_hrnet.py	/^def get_pose_net(num_layers, heads, head_conv):$/;"	kind:function	line:539
+get_pose_net	../src/lib/models/networks/resnet_dcn.py	/^def get_pose_net(num_layers, heads, head_conv=256):$/;"	kind:function	line:284
+get_pose_net	../src/lib/models/networks/resnet_fpn_dcn.py	/^def get_pose_net(num_layers, heads, head_conv=256):$/;"	kind:function	line:305
+get_size	../src/lib/datasets/dataset/jde.py	/^    def get_size(self, vw, vh, dw, dh):$/;"	kind:member	line:101
+get_summary	../src/lib/tracking_utils/evaluation.py	/^    def get_summary(accs, names, metrics=('mota', 'num_switches', 'idp', 'idr', 'idf1', 'precision', 'recall')):$/;"	kind:member	line:91
+grayscale	../src/lib/utils/image.py	/^def grayscale(image):$/;"	kind:function	line:198
+gt	../src/test_emb.py	/^    gt = gt[up_triangle]$/;"	kind:variable	line:97
+gt	../src/test_emb.py	/^    gt = id_labels.expand(n, n).eq(id_labels.expand(n, n).t()).numpy()$/;"	kind:variable	line:93
+height	../src/test_det.py	/^        height = origin_shape[0]$/;"	kind:variable	line:95
+history	../src/lib/tracker/basetrack.py	/^    history = OrderedDict()$/;"	kind:variable	line:19
+history	../src/lib/tracker2/basetrack.py	/^    history = OrderedDict()$/;"	kind:variable	line:19
+hm	../src/test_det.py	/^        hm = output['hm'].sigmoid_()$/;"	kind:variable	line:103
+id_head	../src/test_emb.py	/^        id_head = _tranpose_and_gather_feat(output['id'], batch['ind'].cuda())$/;"	kind:variable	line:62
+id_head	../src/test_emb.py	/^        id_head = emb_scale * F.normalize(id_head)$/;"	kind:variable	line:65
+id_head	../src/test_emb.py	/^        id_head = id_head[batch['reg_mask'].cuda() > 0].contiguous()$/;"	kind:variable	line:63
+id_labels	../src/test_emb.py	/^    id_labels = torch.LongTensor(id_labels)$/;"	kind:variable	line:86
+id_target	../src/test_emb.py	/^        id_target = batch['ids'].cuda()[batch['reg_mask'].cuda() > 0]$/;"	kind:variable	line:66
+image.py	../src/lib/utils/image.py	1;"	kind:file	line:1
+init	../src/lib/opts.py	/^  def init(self, args=''):$/;"	kind:member	line:229
+init_offset	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def init_offset(self):$/;"	kind:member	line:114
+init_offset	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def init_offset(self):$/;"	kind:member	line:114
+init_seeds	../src/lib/tracking_utils/utils.py	/^def init_seeds(seed=0):$/;"	kind:function	line:27
+init_weights	../src/lib/models/networks/pose_hrnet.py	/^    def init_weights(self, pretrained=''):$/;"	kind:member	line:516
+init_weights	../src/lib/models/networks/resnet_dcn.py	/^    def init_weights(self, num_layers):$/;"	kind:member	line:264
+init_weights	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def init_weights(self, num_layers):$/;"	kind:member	line:270
+initiate	../src/lib/tracking_utils/kalman_filter.py	/^    def initiate(self, measurement):$/;"	kind:member	line:54
+inp_height	../src/test_det.py	/^        inp_height = img_size[1]$/;"	kind:variable	line:96
+inp_width	../src/test_det.py	/^        inp_width = img_size[0]$/;"	kind:variable	line:97
+interp	../src/test_emb.py	/^    interp = interpolate.interp1d(far, tar)$/;"	kind:variable	line:101
+io.py	../src/lib/tracking_utils/io.py	1;"	kind:file	line:1
+iou	../src/test_det.py	/^                    iou = bbox_iou(pred_bbox, target_boxes, x1y1x2y2=True)[0]$/;"	kind:variable	line:169
+iou_distance	../src/lib/tracker/matching.py	/^def iou_distance(atracks, btracks):$/;"	kind:function	line:71
+iou_distance	../src/lib/tracker2/matching.py	/^def iou_distance(atracks, btracks):$/;"	kind:function	line:71
+ious	../src/lib/tracker/matching.py	/^def ious(atlbrs, btlbrs):$/;"	kind:function	line:51
+ious	../src/lib/tracker2/matching.py	/^def ious(atlbrs, btlbrs):$/;"	kind:function	line:51
+is_activated	../src/lib/tracker/basetrack.py	/^    is_activated = False$/;"	kind:variable	line:16
+is_activated	../src/lib/tracker2/basetrack.py	/^    is_activated = False$/;"	kind:variable	line:16
+jde.py	../src/lib/datasets/dataset/jde.py	1;"	kind:file	line:1
+joint_stracks	../src/lib/tracker/multitracker.py	/^def joint_stracks(tlista, tlistb):$/;"	kind:function	line:376
+joint_stracks	../src/lib/tracker2/multitracker.py	/^def joint_stracks(tlista, tlistb):$/;"	kind:function	line:376
+kalman_filter.py	../src/lib/tracking_utils/kalman_filter.py	1;"	kind:file	line:1
+label_root	../src/gen_labels_15.py	/^label_root = '\/data\/yfzhang\/MOT\/JDE\/MOT15\/labels_with_ids\/train'$/;"	kind:variable	line:12
+label_root	../src/gen_labels_20.py	/^label_root = '\/data\/yfzhang\/MOT\/JDE\/MOT20\/labels_with_ids\/train'$/;"	kind:variable	line:12
+letterbox	../src/lib/datasets/dataset/jde.py	/^def letterbox(img, height=608, width=1088,$/;"	kind:function	line:242
+lib_path	../src/_init_paths.py	/^lib_path = osp.join(this_dir, 'lib')$/;"	kind:variable	line:11
+lighting_	../src/lib/utils/image.py	/^def lighting_(data_rng, image, alphastd, eigval, eigvec):$/;"	kind:function	line:201
+linear_assignment	../src/lib/tracker/matching.py	/^def linear_assignment(cost_matrix, thresh):$/;"	kind:function	line:37
+linear_assignment	../src/lib/tracker2/matching.py	/^def linear_assignment(cost_matrix, thresh):$/;"	kind:function	line:37
+load_annotations	../src/lib/tracking_utils/evaluation.py	/^    def load_annotations(self):$/;"	kind:member	line:20
+load_classes	../src/lib/tracking_utils/utils.py	/^def load_classes(path):$/;"	kind:function	line:35
+load_model	../src/lib/models/model.py	/^def load_model(model, model_path, optimizer=None, resume=False, $/;"	kind:function	line:28
+load_pretrained_model	../src/lib/models/networks/dlav0.py	/^    def load_pretrained_model(self,  data='imagenet', name='dla34', hash='ba72cf86'):$/;"	kind:member	line:304
+load_pretrained_model	../src/lib/models/networks/pose_dla_dcn.py	/^    def load_pretrained_model(self, data='imagenet', name='dla34', hash='ba72cf86'):$/;"	kind:member	line:293
+location	../src/lib/tracker/basetrack.py	/^    location = (np.inf, np.inf)$/;"	kind:variable	line:28
+location	../src/lib/tracker2/basetrack.py	/^    location = (np.inf, np.inf)$/;"	kind:variable	line:28
+log.py	../src/lib/tracking_utils/log.py	1;"	kind:file	line:1
+logger	../src/lib/models/networks/pose_dla_dcn.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:18
+logger	../src/lib/models/networks/pose_hrnet.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:17
+logger	../src/lib/models/networks/resnet_dcn.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:21
+logger	../src/lib/models/networks/resnet_fpn_dcn.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:21
+logger	../src/lib/tracking_utils/log.py	/^logger = get_logger('root')$/;"	kind:variable	line:18
+logger.py	../src/lib/logger.py	1;"	kind:file	line:1
+losses.py	../src/lib/models/losses.py	1;"	kind:file	line:1
+main	../src/track.py	/^def main(opt, data_root='\/data\/MOT16\/train', det_root=None, seqs=('MOT16-05',), exp_name='demo',$/;"	kind:function	line:101
+main	../src/train.py	/^def main(opt):$/;"	kind:function	line:21
+map	../src/test_det.py	/^        map = test_det(opt, batch_size=4)$/;"	kind:variable	line:215
+map	../src/test_emb.py	/^        map = test_emb(opt, batch_size=4)$/;"	kind:variable	line:111
+mark_lost	../src/lib/tracker/basetrack.py	/^    def mark_lost(self):$/;"	kind:member	line:48
+mark_lost	../src/lib/tracker2/basetrack.py	/^    def mark_lost(self):$/;"	kind:member	line:48
+mark_removed	../src/lib/tracker/basetrack.py	/^    def mark_removed(self):$/;"	kind:member	line:51
+mark_removed	../src/lib/tracker2/basetrack.py	/^    def mark_removed(self):$/;"	kind:member	line:51
+matching.py	../src/lib/tracker/matching.py	1;"	kind:file	line:1
+matching.py	../src/lib/tracker2/matching.py	1;"	kind:file	line:1
+mean	../src/lib/datasets/dataset/jde.py	/^    mean = None$/;"	kind:variable	line:351
+mean_P	../src/test_det.py	/^            mean_P = np.sum(mP) \/ (AP_accum_count + 1E-16)$/;"	kind:variable	line:197
+mean_R	../src/test_det.py	/^            mean_R = np.sum(mR) \/ (AP_accum_count + 1E-16)$/;"	kind:variable	line:196
+mean_mAP	../src/test_det.py	/^            mean_mAP = np.sum(mAPs) \/ (AP_accum_count + 1E-16)$/;"	kind:variable	line:195
+merge_matches	../src/lib/tracker/matching.py	/^def merge_matches(m1, m2, shape):$/;"	kind:function	line:9
+merge_matches	../src/lib/tracker2/matching.py	/^def merge_matches(m1, m2, shape):$/;"	kind:function	line:9
+merge_outputs	../src/lib/tracker/multitracker.py	/^    def merge_outputs(self, detections):$/;"	kind:member	line:204
+merge_outputs	../src/lib/tracker2/multitracker.py	/^    def merge_outputs(self, detections):$/;"	kind:member	line:204
+merge_outputs	../src/test_det.py	/^def merge_outputs(opt, detections):$/;"	kind:function	line:36
+meta	../src/test_det.py	/^        meta = {'c': c, 's': s,$/;"	kind:variable	line:100
+mkdir_if_missing	../src/lib/tracking_utils/utils.py	/^def mkdir_if_missing(d):$/;"	kind:function	line:18
+mkdirs	../src/gen_labels_15.py	/^def mkdirs(d):$/;"	kind:function	line:6
+mkdirs	../src/gen_labels_20.py	/^def mkdirs(d):$/;"	kind:function	line:6
+model	../src/test_det.py	/^    model = create_model(opt.arch, opt.heads, opt.head_conv)$/;"	kind:variable	line:72
+model	../src/test_det.py	/^    model = load_model(model, opt.load_model)$/;"	kind:variable	line:73
+model	../src/test_det.py	/^    model = model.to(opt.device)$/;"	kind:variable	line:75
+model	../src/test_emb.py	/^    model = create_model(opt.arch, opt.heads, opt.head_conv)$/;"	kind:variable	line:46
+model	../src/test_emb.py	/^    model = load_model(model, opt.load_model)$/;"	kind:variable	line:47
+model	../src/test_emb.py	/^    model = model.to(opt.device)$/;"	kind:variable	line:49
+model.py	../src/lib/models/model.py	1;"	kind:file	line:1
+model_info	../src/lib/tracking_utils/utils.py	/^def model_info(model):  # Plots a line-by-line description of a PyTorch model$/;"	kind:function	line:44
+model_urls	../src/lib/models/networks/resnet_dcn.py	/^model_urls = {$/;"	kind:variable	line:23
+model_urls	../src/lib/models/networks/resnet_fpn_dcn.py	/^model_urls = {$/;"	kind:variable	line:23
+mot.py	../src/lib/trains/mot.py	1;"	kind:file	line:1
+mot_decode	../src/lib/models/decode.py	/^def mot_decode(heat, wh, reg=None, cat_spec_wh=False, K=100):$/;"	kind:function	line:48
+multi_predict	../src/lib/tracker/multitracker.py	/^    def multi_predict(stracks):$/;"	kind:member	line:54
+multi_predict	../src/lib/tracker2/multitracker.py	/^    def multi_predict(stracks):$/;"	kind:member	line:54
+multi_predict	../src/lib/tracking_utils/kalman_filter.py	/^    def multi_predict(self, mean, covariance):$/;"	kind:member	line:154
+multitracker.py	../src/lib/tracker/multitracker.py	1;"	kind:file	line:1
+multitracker.py	../src/lib/tracker2/multitracker.py	1;"	kind:file	line:1
+n	../src/test_emb.py	/^    n = len(id_labels)$/;"	kind:variable	line:87
+nC	../src/test_det.py	/^    nC = 1$/;"	kind:variable	line:64
+nC	../src/test_emb.py	/^    nC = 1$/;"	kind:variable	line:38
+name	../src/lib/models/networks/DCNv2/setup.py	/^    name="DCNv2",$/;"	kind:variable	line:57
+name	../src/lib/models/networks/DCNv2_new/setup.py	/^    name="DCNv2",$/;"	kind:variable	line:62
+next_id	../src/lib/tracker/basetrack.py	/^    def next_id():$/;"	kind:member	line:35
+next_id	../src/lib/tracker2/basetrack.py	/^    def next_id():$/;"	kind:member	line:35
+nms	../src/lib/tracking_utils/nms.py	/^nms = _C.nms$/;"	kind:variable	line:5
+nms.py	../src/lib/tracking_utils/nms.py	1;"	kind:file	line:1
+non_max_suppression	../src/lib/tracking_utils/utils.py	/^def non_max_suppression(prediction, conf_thres=0.5, nms_thres=0.2):$/;"	kind:function	line:364
+num_classes	../src/lib/datasets/dataset/jde.py	/^    num_classes = 1$/;"	kind:variable	line:353
+obj_pred	../src/test_det.py	/^                    obj_pred = 0$/;"	kind:variable	line:166
+opt	../src/demo.py	/^    opt = opts().init()$/;"	kind:variable	line:39
+opt	../src/test_det.py	/^    opt = opts().init()$/;"	kind:variable	line:213
+opt	../src/test_emb.py	/^    opt = opts().init()$/;"	kind:variable	line:109
+opt	../src/track.py	/^    opt = opts().init()$/;"	kind:variable	line:155
+opt	../src/train.py	/^    opt = opts().parse()$/;"	kind:variable	line:96
+opts	../src/lib/opts.py	/^class opts(object):$/;"	kind:class	line:9
+opts.py	../src/lib/opts.py	1;"	kind:file	line:1
+origin_shape	../src/test_det.py	/^        origin_shape = shapes[0]$/;"	kind:variable	line:93
+outC	../src/lib/models/networks/DCNv2/test.py	/^outC = 2$/;"	kind:variable	line:14
+outC	../src/lib/models/networks/DCNv2_new/testcpu.py	/^outC = 2$/;"	kind:variable	line:16
+outC	../src/lib/models/networks/DCNv2_new/testcuda.py	/^outC = 2$/;"	kind:variable	line:16
+output	../src/test_det.py	/^        output = model(imgs.cuda())[-1]$/;"	kind:variable	line:92
+output	../src/test_emb.py	/^        output = model(batch['input'].cuda())[-1]$/;"	kind:variable	line:61
+packages	../src/lib/models/networks/DCNv2/setup.py	/^    packages=find_packages(exclude=("configs", "tests",)),$/;"	kind:variable	line:62
+packages	../src/lib/models/networks/DCNv2_new/setup.py	/^    packages=find_packages(exclude=("configs", "tests",)),$/;"	kind:variable	line:67
+parallel_apply	../src/lib/models/data_parallel.py	/^    def parallel_apply(self, replicas, inputs, kwargs):$/;"	kind:member	line:80
+parse	../src/lib/opts.py	/^  def parse(self, args=''):$/;"	kind:member	line:155
+parse_config.py	../src/lib/tracking_utils/parse_config.py	1;"	kind:file	line:1
+parse_data_cfg	../src/lib/tracking_utils/parse_config.py	/^def parse_data_cfg(path):$/;"	kind:function	line:22
+parse_model_cfg	../src/lib/tracking_utils/parse_config.py	/^def parse_model_cfg(path):$/;"	kind:function	line:1
+pdist	../src/test_emb.py	/^    pdist = pdist[up_triangle]$/;"	kind:variable	line:96
+pdist	../src/test_emb.py	/^    pdist = torch.mm(embedding, embedding.t()).cpu().numpy()$/;"	kind:variable	line:92
+plot_detections	../src/lib/tracking_utils/visualization.py	/^def plot_detections(image, tlbrs, scores=None, color=(255, 0, 0), ids=None):$/;"	kind:function	line:68
+plot_one_box	../src/lib/tracking_utils/utils.py	/^def plot_one_box(x, img, color=None, label=None, line_thickness=None):  # Plots one bounding box on image img$/;"	kind:function	line:56
+plot_results	../src/lib/tracking_utils/utils.py	/^def plot_results():$/;"	kind:function	line:417
+plot_tracking	../src/lib/tracking_utils/visualization.py	/^def plot_tracking(image, tlwhs, obj_ids, scores=None, frame_id=0, fps=0., ids2=None):$/;"	kind:function	line:28
+plot_trajectory	../src/lib/tracking_utils/visualization.py	/^def plot_trajectory(image, tlwhs, track_ids):$/;"	kind:function	line:57
+pooling_nms	../src/lib/tracking_utils/utils.py	/^def pooling_nms(heatmap, kernel=1):$/;"	kind:function	line:357
+pose_dla_dcn.py	../src/lib/models/networks/pose_dla_dcn.py	1;"	kind:file	line:1
+pose_hrnet.py	../src/lib/models/networks/pose_hrnet.py	1;"	kind:file	line:1
+post_process	../src/lib/tracker/multitracker.py	/^    def post_process(self, dets, meta):$/;"	kind:member	line:194
+post_process	../src/lib/tracker2/multitracker.py	/^    def post_process(self, dets, meta):$/;"	kind:member	line:194
+post_process	../src/test_det.py	/^def post_process(opt, dets, meta):$/;"	kind:function	line:25
+post_process.py	../src/lib/utils/post_process.py	1;"	kind:file	line:1
+pred_bbox	../src/test_det.py	/^                    pred_bbox = torch.FloatTensor(pred_bbox).view(1, -1)$/;"	kind:variable	line:167
+pred_cls	../src/test_det.py	/^                                              pred_cls=np.zeros_like(dets[:, 4]),  # detections[:, 6]$/;"	kind:variable	line:182
+predict	../src/lib/tracker/basetrack.py	/^    def predict(self):$/;"	kind:member	line:42
+predict	../src/lib/tracker/multitracker.py	/^    def predict(self):$/;"	kind:member	line:47
+predict	../src/lib/tracker2/basetrack.py	/^    def predict(self):$/;"	kind:member	line:42
+predict	../src/lib/tracker2/multitracker.py	/^    def predict(self):$/;"	kind:member	line:47
+predict	../src/lib/tracking_utils/kalman_filter.py	/^    def predict(self, mean, covariance):$/;"	kind:member	line:87
+project	../src/lib/tracking_utils/kalman_filter.py	/^    def project(self, mean, covariance):$/;"	kind:member	line:125
+random_affine	../src/lib/datasets/dataset/jde.py	/^def random_affine(img, targets=None, degrees=(-10, 10), translate=(.1, .1), scale=(.9, 1.1), shear=(-2, 2),$/;"	kind:function	line:256
+re_activate	../src/lib/tracker/multitracker.py	/^    def re_activate(self, new_track, frame_id, new_id=False):$/;"	kind:member	line:78
+re_activate	../src/lib/tracker2/multitracker.py	/^    def re_activate(self, new_track, frame_id, new_id=False):$/;"	kind:member	line:78
+read_mot_results	../src/lib/tracking_utils/io.py	/^def read_mot_results(filename, is_gt, is_ignore):$/;"	kind:function	line:63
+read_results	../src/lib/tracking_utils/io.py	/^def read_results(filename, data_type: str, is_gt=False, is_ignore=False):$/;"	kind:function	line:36
+reg	../src/test_det.py	/^        reg = output['reg'] if opt.reg_offset else None$/;"	kind:variable	line:105
+remove_duplicate_stracks	../src/lib/tracker/multitracker.py	/^def remove_duplicate_stracks(stracksa, stracksb):$/;"	kind:function	line:401
+remove_duplicate_stracks	../src/lib/tracker2/multitracker.py	/^def remove_duplicate_stracks(stracksa, stracksb):$/;"	kind:function	line:401
+replicate	../src/lib/models/data_parallel.py	/^    def replicate(self, module, device_ids):$/;"	kind:member	line:74
+requirements	../src/lib/models/networks/DCNv2/setup.py	/^requirements = ["torch", "torchvision"]$/;"	kind:variable	line:15
+requirements	../src/lib/models/networks/DCNv2_new/setup.py	/^requirements = ["torch", "torchvision"]$/;"	kind:variable	line:15
+reset	../src/lib/utils/utils.py	/^    def reset(self):$/;"	kind:member	line:13
+reset_accumulator	../src/lib/tracking_utils/evaluation.py	/^    def reset_accumulator(self):$/;"	kind:member	line:27
+reset_parameters	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def reset_parameters(self):$/;"	kind:member	line:75
+reset_parameters	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def reset_parameters(self):$/;"	kind:member	line:75
+resize_image	../src/lib/tracking_utils/visualization.py	/^def resize_image(image, max_size=800):$/;"	kind:function	line:21
+resnet_dcn.py	../src/lib/models/networks/resnet_dcn.py	1;"	kind:file	line:1
+resnet_fpn_dcn.py	../src/lib/models/networks/resnet_fpn_dcn.py	1;"	kind:file	line:1
+resnet_spec	../src/lib/models/networks/resnet_dcn.py	/^resnet_spec = {18: (BasicBlock, [2, 2, 2, 2]),$/;"	kind:variable	line:277
+resnet_spec	../src/lib/models/networks/resnet_fpn_dcn.py	/^resnet_spec = {18: (BasicBlock, [2, 2, 2, 2]),$/;"	kind:variable	line:298
+return_torch_unique_index	../src/lib/tracking_utils/utils.py	/^def return_torch_unique_index(u, uv):$/;"	kind:function	line:400
+root	../src/gen_data_path.py	/^    root = '\/data\/yfzhang\/MOT\/JDE'$/;"	kind:variable	line:21
+run_epoch	../src/lib/trains/base_trainer.py	/^  def run_epoch(self, phase, epoch, data_loader):$/;"	kind:member	line:45
+s	../src/test_det.py	/^        s = max(float(inp_width) \/ float(inp_height) * height, width) * 1.0$/;"	kind:variable	line:99
+saturation_	../src/lib/utils/image.py	/^def saturation_(data_rng, image, gs, gs_mean, var):$/;"	kind:function	line:210
+save_images	../src/track.py	/^         save_images=False,$/;"	kind:variable	line:248
+save_model	../src/lib/models/model.py	/^def save_model(path, epoch, model, optimizer=None):$/;"	kind:function	line:83
+save_result	../src/lib/trains/base_trainer.py	/^  def save_result(self, output, batch, results):$/;"	kind:member	line:109
+save_result	../src/lib/trains/mot.py	/^    def save_result(self, output, batch, results):$/;"	kind:member	line:95
+save_summary	../src/lib/tracking_utils/evaluation.py	/^    def save_summary(summary, filename):$/;"	kind:member	line:108
+save_videos	../src/track.py	/^         save_videos=False)$/;"	kind:variable	line:249
+scalar_summary	../src/lib/logger.py	/^  def scalar_summary(self, tag, value, step):$/;"	kind:member	line:69
+scale_coords	../src/lib/tracking_utils/utils.py	/^def scale_coords(img_size, coords, img0_shape):$/;"	kind:function	line:98
+scatter	../src/lib/models/data_parallel.py	/^    def scatter(self, inputs, kwargs, device_ids, chunk_sizes):$/;"	kind:member	line:77
+scatter	../src/lib/models/scatter_gather.py	/^def scatter(inputs, target_gpus, dim=0, chunk_sizes=None):$/;"	kind:function	line:6
+scatter_gather.py	../src/lib/models/scatter_gather.py	1;"	kind:file	line:1
+scatter_kwargs	../src/lib/models/scatter_gather.py	/^def scatter_kwargs(inputs, kwargs, target_gpus, dim=0, chunk_sizes=None):$/;"	kind:function	line:28
+scatter_map	../src/lib/models/scatter_gather.py	/^    def scatter_map(obj):$/;"	kind:function	line:13
+score	../src/lib/tracker/basetrack.py	/^    score = 0$/;"	kind:variable	line:22
+score	../src/lib/tracker2/basetrack.py	/^    score = 0$/;"	kind:variable	line:22
+seq_root	../src/gen_labels_15.py	/^seq_root = '\/data\/yfzhang\/MOT\/JDE\/MOT15\/images\/train'$/;"	kind:variable	line:11
+seq_root	../src/gen_labels_20.py	/^seq_root = '\/data\/yfzhang\/MOT\/JDE\/MOT20\/images\/train'$/;"	kind:variable	line:11
+seqs	../src/gen_labels_15.py	/^seqs = ['ADL-Rundle-6', 'ETH-Bahnhof', 'KITTI-13', 'PETS09-S2L1', 'TUD-Stadtmitte', 'ADL-Rundle-8', 'KITTI-17',$/;"	kind:variable	line:15
+seqs	../src/gen_labels_20.py	/^seqs = [s for s in os.listdir(seq_root)]$/;"	kind:variable	line:14
+seqs	../src/track.py	/^         seqs=seqs,$/;"	kind:variable	line:245
+seqs	../src/track.py	/^    seqs = [seq.strip() for seq in seqs_str.split()]$/;"	kind:variable	line:241
+set_device	../src/lib/trains/base_trainer.py	/^  def set_device(self, gpus, chunk_sizes, device):$/;"	kind:member	line:32
+setup.py	../src/lib/models/networks/DCNv2/setup.py	1;"	kind:file	line:1
+setup.py	../src/lib/models/networks/DCNv2_new/setup.py	1;"	kind:file	line:1
+shared_kalman	../src/lib/tracker/multitracker.py	/^    shared_kalman = KalmanFilter()$/;"	kind:variable	line:20
+shared_kalman	../src/lib/tracker2/multitracker.py	/^    shared_kalman = KalmanFilter()$/;"	kind:variable	line:20
+show_image	../src/track.py	/^         show_image=False,$/;"	kind:variable	line:247
+start_frame	../src/lib/tracker/basetrack.py	/^    start_frame = 0$/;"	kind:variable	line:23
+start_frame	../src/lib/tracker2/basetrack.py	/^    start_frame = 0$/;"	kind:variable	line:23
+state	../src/lib/tracker/basetrack.py	/^    state = TrackState.New$/;"	kind:variable	line:17
+state	../src/lib/tracker2/basetrack.py	/^    state = TrackState.New$/;"	kind:variable	line:17
+std	../src/lib/datasets/dataset/jde.py	/^    std = None$/;"	kind:variable	line:352
+strip_optimizer_from_checkpoint	../src/lib/tracking_utils/utils.py	/^def strip_optimizer_from_checkpoint(filename='weights\/best.pt'):$/;"	kind:function	line:409
+sub_stracks	../src/lib/tracker/multitracker.py	/^def sub_stracks(tlista, tlistb):$/;"	kind:function	line:390
+sub_stracks	../src/lib/tracker2/multitracker.py	/^def sub_stracks(tlista, tlistb):$/;"	kind:function	line:390
+t	../src/test_det.py	/^        t = time.time()$/;"	kind:variable	line:89
+t	../src/test_emb.py	/^        t = time.time()$/;"	kind:variable	line:60
+tar_at_far	../src/test_emb.py	/^    tar_at_far = [interp(x) for x in far_levels]$/;"	kind:variable	line:102
+target_boxes	../src/test_det.py	/^                target_boxes = xywh2xyxy(labels[:, 2:6])$/;"	kind:variable	line:137
+target_cls	../src/test_det.py	/^                                              target_cls=target_cls)$/;"	kind:variable	line:183
+target_cls	../src/test_det.py	/^                target_cls = labels[:, 0]$/;"	kind:variable	line:134
+targets	../src/test_det.py	/^        targets = [targets[i][:int(l)] for i, l in enumerate(targets_len)]$/;"	kind:variable	line:109
+test.py	../src/lib/models/networks/DCNv2/test.py	1;"	kind:file	line:1
+test_det	../src/test_det.py	/^def test_det($/;"	kind:function	line:53
+test_det.py	../src/test_det.py	1;"	kind:file	line:1
+test_emb	../src/test_emb.py	/^def test_emb($/;"	kind:function	line:28
+test_emb.py	../src/test_emb.py	1;"	kind:file	line:1
+test_path	../src/test_det.py	/^    test_path = data_cfg_dict['test']$/;"	kind:variable	line:65
+test_paths	../src/test_emb.py	/^    test_paths = data_cfg_dict['test_emb']$/;"	kind:variable	line:39
+testcpu.py	../src/lib/models/networks/DCNv2_new/testcpu.py	1;"	kind:file	line:1
+testcuda.py	../src/lib/models/networks/DCNv2_new/testcuda.py	1;"	kind:file	line:1
+this_dir	../src/_init_paths.py	/^this_dir = osp.dirname(__file__)$/;"	kind:variable	line:8
+tic	../src/lib/tracking_utils/timer.py	/^    def tic(self):$/;"	kind:member	line:22
+tid_curr	../src/gen_labels_15.py	/^tid_curr = 0$/;"	kind:variable	line:18
+tid_curr	../src/gen_labels_20.py	/^tid_curr = 0$/;"	kind:variable	line:16
+tid_last	../src/gen_labels_15.py	/^tid_last = -1$/;"	kind:variable	line:19
+tid_last	../src/gen_labels_20.py	/^tid_last = -1$/;"	kind:variable	line:17
+time_since_update	../src/lib/tracker/basetrack.py	/^    time_since_update = 0$/;"	kind:variable	line:25
+time_since_update	../src/lib/tracker2/basetrack.py	/^    time_since_update = 0$/;"	kind:variable	line:25
+timer.py	../src/lib/tracking_utils/timer.py	1;"	kind:file	line:1
+tlbr	../src/lib/tracker/multitracker.py	/^    def tlbr(self):$/;"	kind:member	line:127
+tlbr	../src/lib/tracker2/multitracker.py	/^    def tlbr(self):$/;"	kind:member	line:127
+tlbr_to_tlwh	../src/lib/tracker/multitracker.py	/^    def tlbr_to_tlwh(tlbr):$/;"	kind:member	line:151
+tlbr_to_tlwh	../src/lib/tracker2/multitracker.py	/^    def tlbr_to_tlwh(tlbr):$/;"	kind:member	line:151
+tlwh	../src/lib/tracker/multitracker.py	/^    def tlwh(self):$/;"	kind:member	line:114
+tlwh	../src/lib/tracker2/multitracker.py	/^    def tlwh(self):$/;"	kind:member	line:114
+tlwh_to_tlbr	../src/lib/tracker/multitracker.py	/^    def tlwh_to_tlbr(tlwh):$/;"	kind:member	line:158
+tlwh_to_tlbr	../src/lib/tracker2/multitracker.py	/^    def tlwh_to_tlbr(tlwh):$/;"	kind:member	line:158
+tlwh_to_xyah	../src/lib/tracker/multitracker.py	/^    def tlwh_to_xyah(tlwh):$/;"	kind:member	line:137
+tlwh_to_xyah	../src/lib/tracker2/multitracker.py	/^    def tlwh_to_xyah(tlwh):$/;"	kind:member	line:137
+tlwhs_to_tlbrs	../src/lib/tracking_utils/visualization.py	/^def tlwhs_to_tlbrs(tlwhs):$/;"	kind:function	line:5
+to_xyah	../src/lib/tracker/multitracker.py	/^    def to_xyah(self):$/;"	kind:member	line:146
+to_xyah	../src/lib/tracker2/multitracker.py	/^    def to_xyah(self):$/;"	kind:member	line:146
+toc	../src/lib/tracking_utils/timer.py	/^    def toc(self, average=True):$/;"	kind:member	line:27
+track.py	../src/track.py	1;"	kind:file	line:1
+track_id	../src/lib/tracker/basetrack.py	/^    track_id = 0$/;"	kind:variable	line:15
+track_id	../src/lib/tracker2/basetrack.py	/^    track_id = 0$/;"	kind:variable	line:15
+train	../src/lib/trains/base_trainer.py	/^  def train(self, epoch, data_loader):$/;"	kind:member	line:118
+train.py	../src/train.py	1;"	kind:file	line:1
+train_factory	../src/lib/trains/train_factory.py	/^train_factory = {$/;"	kind:variable	line:8
+train_factory.py	../src/lib/trains/train_factory.py	1;"	kind:file	line:1
+transform_preds	../src/lib/utils/image.py	/^def transform_preds(coords, center, scale, output_size):$/;"	kind:function	line:19
+transforms	../src/test_det.py	/^    transforms = T.Compose([T.ToTensor()])$/;"	kind:variable	line:79
+transforms	../src/test_emb.py	/^    transforms = T.Compose([T.ToTensor()])$/;"	kind:variable	line:53
+unzip_objs	../src/lib/tracking_utils/io.py	/^def unzip_objs(objs):$/;"	kind:function	line:105
+up_triangle	../src/test_emb.py	/^    up_triangle = np.where(np.triu(pdist) - np.eye(n) * pdist != 0)$/;"	kind:variable	line:95
+update	../src/lib/tracker/basetrack.py	/^    def update(self, *args, **kwargs):$/;"	kind:member	line:45
+update	../src/lib/tracker/multitracker.py	/^    def update(self, im_blob, img0):$/;"	kind:member	line:220
+update	../src/lib/tracker/multitracker.py	/^    def update(self, new_track, frame_id, update_feature=True):$/;"	kind:member	line:91
+update	../src/lib/tracker2/basetrack.py	/^    def update(self, *args, **kwargs):$/;"	kind:member	line:45
+update	../src/lib/tracker2/multitracker.py	/^    def update(self, im_blob, img0):$/;"	kind:member	line:220
+update	../src/lib/tracker2/multitracker.py	/^    def update(self, new_track, frame_id, update_feature=True):$/;"	kind:member	line:91
+update	../src/lib/tracking_utils/kalman_filter.py	/^    def update(self, mean, covariance, measurement):$/;"	kind:member	line:193
+update	../src/lib/utils/utils.py	/^    def update(self, val, n=1):$/;"	kind:member	line:19
+update_config	../src/lib/models/networks/config/default.py	/^def update_config(cfg, cfg_dir):$/;"	kind:function	line:116
+update_dataset_info_and_set_heads	../src/lib/opts.py	/^  def update_dataset_info_and_set_heads(self, opt, dataset):$/;"	kind:member	line:201
+update_features	../src/lib/tracker/multitracker.py	/^    def update_features(self, feat):$/;"	kind:member	line:37
+update_features	../src/lib/tracker2/multitracker.py	/^    def update_features(self, feat):$/;"	kind:member	line:37
+url	../src/lib/models/networks/DCNv2/setup.py	/^    url="https:\/\/github.com\/charlesshang\/DCNv2",$/;"	kind:variable	line:60
+url	../src/lib/models/networks/DCNv2_new/setup.py	/^    url="https:\/\/github.com\/charlesshang\/DCNv2",$/;"	kind:variable	line:65
+utils.py	../src/lib/models/utils.py	1;"	kind:file	line:1
+utils.py	../src/lib/tracking_utils/utils.py	1;"	kind:file	line:1
+utils.py	../src/lib/utils/utils.py	1;"	kind:file	line:1
+val	../src/lib/trains/base_trainer.py	/^  def val(self, epoch, data_loader):$/;"	kind:member	line:115
+version	../src/lib/models/networks/DCNv2/setup.py	/^    version="0.1",$/;"	kind:variable	line:58
+version	../src/lib/models/networks/DCNv2_new/setup.py	/^    version="0.1",$/;"	kind:variable	line:63
+visualization.py	../src/lib/tracking_utils/visualization.py	1;"	kind:file	line:1
+weights_init_normal	../src/lib/tracking_utils/utils.py	/^def weights_init_normal(m):$/;"	kind:function	line:69
+wh	../src/test_det.py	/^        wh = output['wh']$/;"	kind:variable	line:104
+width	../src/test_det.py	/^        width = origin_shape[1]$/;"	kind:variable	line:94
+write	../src/lib/logger.py	/^  def write(self, txt):$/;"	kind:member	line:55
+write	../src/track.py	/^    def write(self,frame):$/;"	kind:member	line:34
+write_results	../src/lib/tracking_utils/io.py	/^def write_results(filename, results_dict: Dict, data_type: str):$/;"	kind:function	line:8
+write_results	../src/track.py	/^def write_results(filename, results, data_type):$/;"	kind:function	line:37
+xywh2xyxy	../src/lib/tracking_utils/utils.py	/^def xywh2xyxy(x):$/;"	kind:function	line:88
+xywh2xyxy	../src/lib/utils/utils.py	/^def xywh2xyxy(x):$/;"	kind:function	line:37
+xyxy2xywh	../src/lib/tracking_utils/utils.py	/^def xyxy2xywh(x):$/;"	kind:function	line:78
+xyxy2xywh	../src/lib/utils/utils.py	/^def xyxy2xywh(x):$/;"	kind:function	line:27
