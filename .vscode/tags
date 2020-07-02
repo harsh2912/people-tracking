@@ -312,8 +312,6 @@ default_resolution	../src/lib/datasets/dataset/jde.py	/^    default_resolution =
 deformable_groups	../src/lib/models/networks/DCNv2/test.py	/^deformable_groups = 1$/;"	kind:variable	line:12
 deformable_groups	../src/lib/models/networks/DCNv2_new/testcpu.py	/^deformable_groups = 1$/;"	kind:variable	line:14
 deformable_groups	../src/lib/models/networks/DCNv2_new/testcuda.py	/^deformable_groups = 1$/;"	kind:variable	line:14
-demo	../src/demo.py	/^def demo(opt):$/;"	kind:function	line:20
-demo.py	../src/demo.py	1;"	kind:file	line:1
 description	../src/lib/models/networks/DCNv2/setup.py	/^    description="deformable convolutional networks",$/;"	kind:variable	line:61
 description	../src/lib/models/networks/DCNv2_new/setup.py	/^    description="deformable convolutional networks",$/;"	kind:variable	line:66
 detected	../src/test_det.py	/^                detected = []$/;"	kind:variable	line:164
@@ -573,7 +571,6 @@ nms.py	../src/lib/tracking_utils/nms.py	1;"	kind:file	line:1
 non_max_suppression	../src/lib/tracking_utils/utils.py	/^def non_max_suppression(prediction, conf_thres=0.5, nms_thres=0.2):$/;"	kind:function	line:364
 num_classes	../src/lib/datasets/dataset/jde.py	/^    num_classes = 1$/;"	kind:variable	line:353
 obj_pred	../src/test_det.py	/^                    obj_pred = 0$/;"	kind:variable	line:166
-opt	../src/demo.py	/^    opt = opts().init()$/;"	kind:variable	line:39
 opt	../src/script.py	/^    opt = opts().init()$/;"	kind:variable	line:19
 opt	../src/test_det.py	/^    opt = opts().init()$/;"	kind:variable	line:213
 opt	../src/test_emb.py	/^    opt = opts().init()$/;"	kind:variable	line:109
