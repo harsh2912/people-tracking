@@ -10,7 +10,6 @@ BN_MOMENTUM	../src/lib/models/networks/pose_hrnet.py	/^BN_MOMENTUM = 0.01$/;"	ki
 BN_MOMENTUM	../src/lib/models/networks/resnet_dcn.py	/^BN_MOMENTUM = 0.1$/;"	kind:variable	line:20
 BN_MOMENTUM	../src/lib/models/networks/resnet_fpn_dcn.py	/^BN_MOMENTUM = 0.1$/;"	kind:variable	line:20
 BaseTrack	../src/lib/tracker/basetrack.py	/^class BaseTrack(object):$/;"	kind:class	line:12
-BaseTrack	../src/lib/tracker2/basetrack.py	/^class BaseTrack(object):$/;"	kind:class	line:12
 BaseTrainer	../src/lib/trains/base_trainer.py	/^class BaseTrainer(object):$/;"	kind:class	line:23
 BasicBlock	../src/lib/models/networks/dlav0.py	/^class BasicBlock(nn.Module):$/;"	kind:class	line:28
 BasicBlock	../src/lib/models/networks/pose_dla_dcn.py	/^class BasicBlock(nn.Module):$/;"	kind:class	line:30
@@ -53,7 +52,6 @@ Identity	../src/lib/models/networks/dlav0.py	/^class Identity(nn.Module):$/;"	ki
 Identity	../src/lib/models/networks/pose_dla_dcn.py	/^class Identity(nn.Module):$/;"	kind:class	line:316
 Interpolate	../src/lib/models/networks/pose_dla_dcn.py	/^class Interpolate(nn.Module):$/;"	kind:class	line:415
 JDETracker	../src/lib/tracker/multitracker.py	/^class JDETracker(object):$/;"	kind:class	line:167
-JDETracker	../src/lib/tracker2/multitracker.py	/^class JDETracker(object):$/;"	kind:class	line:167
 JointDataset	../src/lib/datasets/dataset/jde.py	/^class JointDataset(LoadImagesAndLabels):  # for training$/;"	kind:class	line:349
 KalmanFilter	../src/lib/tracking_utils/kalman_filter.py	/^class KalmanFilter(object):$/;"	kind:class	line:22
 L1Loss	../src/lib/models/losses.py	/^class L1Loss(nn.Module):$/;"	kind:class	line:177
@@ -62,12 +60,10 @@ LoadImagesAndLabels	../src/lib/datasets/dataset/jde.py	/^class LoadImagesAndLabe
 LoadVideo	../src/lib/datasets/dataset/jde.py	/^class LoadVideo:  # for inference$/;"	kind:class	line:86
 Logger	../src/lib/logger.py	/^class Logger(object):$/;"	kind:class	line:17
 Lost	../src/lib/tracker/basetrack.py	/^    Lost = 2$/;"	kind:variable	line:8
-Lost	../src/lib/tracker2/basetrack.py	/^    Lost = 2$/;"	kind:variable	line:8
 ModleWithLoss	../src/lib/trains/base_trainer.py	/^class ModleWithLoss(torch.nn.Module):$/;"	kind:class	line:12
 MotLoss	../src/lib/trains/mot.py	/^class MotLoss(torch.nn.Module):$/;"	kind:class	line:19
 MotTrainer	../src/lib/trains/mot.py	/^class MotTrainer(BaseTrainer):$/;"	kind:class	line:86
 New	../src/lib/tracker/basetrack.py	/^    New = 0$/;"	kind:variable	line:6
-New	../src/lib/tracker2/basetrack.py	/^    New = 0$/;"	kind:variable	line:6
 NormRegL1Loss	../src/lib/models/losses.py	/^class NormRegL1Loss(nn.Module):$/;"	kind:class	line:151
 PoseHighResolutionNet	../src/lib/models/networks/pose_hrnet.py	/^class PoseHighResolutionNet(nn.Module):$/;"	kind:class	line:272
 PoseResNet	../src/lib/models/networks/resnet_dcn.py	/^class PoseResNet(nn.Module):$/;"	kind:class	line:129
@@ -76,17 +72,14 @@ RegL1Loss	../src/lib/models/losses.py	/^class RegL1Loss(nn.Module):$/;"	kind:cla
 RegLoss	../src/lib/models/losses.py	/^class RegLoss(nn.Module):$/;"	kind:class	line:123
 RegWeightedL1Loss	../src/lib/models/losses.py	/^class RegWeightedL1Loss(nn.Module):$/;"	kind:class	line:165
 Removed	../src/lib/tracker/basetrack.py	/^    Removed = 3$/;"	kind:variable	line:9
-Removed	../src/lib/tracker2/basetrack.py	/^    Removed = 3$/;"	kind:variable	line:9
 Root	../src/lib/models/networks/dlav0.py	/^class Root(nn.Module):$/;"	kind:class	line:144
 Root	../src/lib/models/networks/pose_dla_dcn.py	/^class Root(nn.Module):$/;"	kind:class	line:146
 STrack	../src/lib/tracker/multitracker.py	/^class STrack(BaseTrack):$/;"	kind:class	line:19
-STrack	../src/lib/tracker2/multitracker.py	/^class STrack(BaseTrack):$/;"	kind:class	line:19
-Struct	../src/lib/opts.py	/^    class Struct:$/;"	kind:class	line:235
+Struct	../src/lib/opts.py	/^        class Struct:$/;"	kind:class	line:168
+Struct	../src/lib/opts2.py	/^    class Struct:$/;"	kind:class	line:235
 Timer	../src/lib/tracking_utils/timer.py	/^class Timer(object):$/;"	kind:class	line:11
 TrackState	../src/lib/tracker/basetrack.py	/^class TrackState(object):$/;"	kind:class	line:5
-TrackState	../src/lib/tracker2/basetrack.py	/^class TrackState(object):$/;"	kind:class	line:5
 Tracked	../src/lib/tracker/basetrack.py	/^    Tracked = 1$/;"	kind:variable	line:7
-Tracked	../src/lib/tracker2/basetrack.py	/^    Tracked = 1$/;"	kind:variable	line:7
 Tree	../src/lib/models/networks/dlav0.py	/^class Tree(nn.Module):$/;"	kind:class	line:165
 Tree	../src/lib/models/networks/pose_dla_dcn.py	/^class Tree(nn.Module):$/;"	kind:class	line:167
 TripletLoss	../src/lib/models/losses.py	/^class TripletLoss(nn.Module):$/;"	kind:class	line:240
@@ -159,12 +152,12 @@ __init__	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def __init__(self, b
 __init__	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def __init__(self, chi, cho):$/;"	kind:member	line:280
 __init__	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	kind:member	line:40
 __init__	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	kind:member	line:72
-__init__	../src/lib/opts.py	/^      def __init__(self, entries):$/;"	kind:member	line:236
-__init__	../src/lib/opts.py	/^  def __init__(self):$/;"	kind:member	line:10
+__init__	../src/lib/opts.py	/^          def __init__(self, entries):$/;"	kind:member	line:169
+__init__	../src/lib/opts.py	/^    def __init__(self):$/;"	kind:member	line:10
+__init__	../src/lib/opts2.py	/^      def __init__(self, entries):$/;"	kind:member	line:236
+__init__	../src/lib/opts2.py	/^  def __init__(self):$/;"	kind:member	line:10
 __init__	../src/lib/tracker/multitracker.py	/^    def __init__(self, opt, frame_rate=30):$/;"	kind:member	line:168
 __init__	../src/lib/tracker/multitracker.py	/^    def __init__(self, tlwh, score, temp_feat, buffer_size=30):$/;"	kind:member	line:21
-__init__	../src/lib/tracker2/multitracker.py	/^    def __init__(self, opt, frame_rate=30):$/;"	kind:member	line:168
-__init__	../src/lib/tracker2/multitracker.py	/^    def __init__(self, tlwh, score, temp_feat, buffer_size=30):$/;"	kind:member	line:21
 __init__	../src/lib/tracking_utils/evaluation.py	/^    def __init__(self, data_root, seq_name, data_type):$/;"	kind:member	line:12
 __init__	../src/lib/tracking_utils/kalman_filter.py	/^    def __init__(self):$/;"	kind:member	line:39
 __init__	../src/lib/tracking_utils/timer.py	/^    def __init__(self):$/;"	kind:member	line:13
@@ -183,17 +176,14 @@ __len__	../src/lib/datasets/dataset/jde.py	/^    def __len__(self):$/;"	kind:mem
 __next__	../src/lib/datasets/dataset/jde.py	/^    def __next__(self):$/;"	kind:member	line:110
 __next__	../src/lib/datasets/dataset/jde.py	/^    def __next__(self):$/;"	kind:member	line:43
 __repr__	../src/lib/tracker/multitracker.py	/^    def __repr__(self):$/;"	kind:member	line:163
-__repr__	../src/lib/tracker2/multitracker.py	/^    def __repr__(self):$/;"	kind:member	line:163
 _check_branches	../src/lib/models/networks/pose_hrnet.py	/^    def _check_branches(self, num_branches, blocks, num_blocks,$/;"	kind:member	line:117
 _count	../src/lib/tracker/basetrack.py	/^    _count = 0$/;"	kind:variable	line:13
-_count	../src/lib/tracker2/basetrack.py	/^    _count = 0$/;"	kind:variable	line:13
 _gather_feat	../src/lib/models/utils.py	/^def _gather_feat(feat, ind, mask=None):$/;"	kind:function	line:12
 _get_deconv_cfg	../src/lib/models/networks/resnet_dcn.py	/^    def _get_deconv_cfg(self, deconv_kernel, index):$/;"	kind:member	line:195
 _get_deconv_cfg	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def _get_deconv_cfg(self, deconv_kernel):$/;"	kind:member	line:201
 _get_losses	../src/lib/trains/base_trainer.py	/^  def _get_losses(self, opt):$/;"	kind:member	line:112
 _get_losses	../src/lib/trains/mot.py	/^    def _get_losses(self, opt):$/;"	kind:member	line:90
 _indices_to_matches	../src/lib/tracker/matching.py	/^def _indices_to_matches(cost_matrix, indices, thresh):$/;"	kind:function	line:26
-_indices_to_matches	../src/lib/tracker2/matching.py	/^def _indices_to_matches(cost_matrix, indices, thresh):$/;"	kind:function	line:26
 _init_paths.py	../src/_init_paths.py	1;"	kind:file	line:1
 _make_branches	../src/lib/models/networks/pose_hrnet.py	/^    def _make_branches(self, num_branches, block, num_blocks, num_channels):$/;"	kind:member	line:175
 _make_conv_level	../src/lib/models/networks/dlav0.py	/^    def _make_conv_level(self, inplanes, planes, convs, stride=1, dilation=1):$/;"	kind:member	line:277
@@ -222,12 +212,11 @@ _topk_channel	../src/lib/models/decode.py	/^def _topk_channel(scores, K=40):$/;"
 _tranpose_and_gather_feat	../src/lib/models/utils.py	/^def _tranpose_and_gather_feat(feat, ind):$/;"	kind:function	line:22
 activate	../src/lib/tracker/basetrack.py	/^    def activate(self, *args):$/;"	kind:member	line:39
 activate	../src/lib/tracker/multitracker.py	/^    def activate(self, kalman_filter, frame_id):$/;"	kind:member	line:66
-activate	../src/lib/tracker2/basetrack.py	/^    def activate(self, *args):$/;"	kind:member	line:39
-activate	../src/lib/tracker2/multitracker.py	/^    def activate(self, kalman_filter, frame_id):$/;"	kind:member	line:66
 add_path	../src/_init_paths.py	/^def add_path(path):$/;"	kind:function	line:4
 affine_transform	../src/lib/utils/image.py	/^def affine_transform(pt, t):$/;"	kind:function	line:63
 ap_per_class	../src/lib/tracking_utils/utils.py	/^def ap_per_class(tp, conf, pred_cls, target_cls):$/;"	kind:function	line:112
 ap_per_class	../src/lib/utils/utils.py	/^def ap_per_class(tp, conf, pred_cls, target_cls):$/;"	kind:function	line:46
+args	../src/script.py	/^    args = parser.parse_args()$/;"	kind:variable	line:13
 author	../src/lib/models/networks/DCNv2/setup.py	/^    author="charlesshang",$/;"	kind:variable	line:59
 author	../src/lib/models/networks/DCNv2_new/setup.py	/^    author="charlesshang",$/;"	kind:variable	line:64
 backward	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def backward(ctx, grad_output):$/;"	kind:member	line:163
@@ -236,7 +225,6 @@ backward	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def backward(ctx, 
 backward	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def backward(ctx, grad_output):$/;"	kind:member	line:37
 base_trainer.py	../src/lib/trains/base_trainer.py	1;"	kind:file	line:1
 basetrack.py	../src/lib/tracker/basetrack.py	1;"	kind:file	line:1
-basetrack.py	../src/lib/tracker2/basetrack.py	1;"	kind:file	line:1
 bbox_iou	../src/lib/tracking_utils/utils.py	/^def bbox_iou(box1, box2, x1y1x2y2=False):$/;"	kind:function	line:194
 bbox_iou	../src/lib/utils/utils.py	/^def bbox_iou(box1, box2, x1y1x2y2=False):$/;"	kind:function	line:128
 best_i	../src/test_det.py	/^                    best_i = np.argmax(iou)$/;"	kind:variable	line:171
@@ -286,23 +274,22 @@ create_model	../src/lib/models/model.py	/^def create_model(arch, heads, head_con
 crop	../src/lib/utils/image.py	/^def crop(img, center, scale, output_size, rot=0):$/;"	kind:function	line:84
 ctdet_post_process	../src/lib/utils/post_process.py	/^def ctdet_post_process(dets, c, s, h, w, num_classes):$/;"	kind:function	line:9
 curr_feature	../src/lib/tracker/basetrack.py	/^    curr_feature = None$/;"	kind:variable	line:21
-curr_feature	../src/lib/tracker2/basetrack.py	/^    curr_feature = None$/;"	kind:variable	line:21
 data_cfg	../src/test_det.py	/^    data_cfg = opt.data_cfg$/;"	kind:variable	line:60
 data_cfg	../src/test_emb.py	/^    data_cfg = opt.data_cfg$/;"	kind:variable	line:34
 data_cfg_dict	../src/test_det.py	/^    data_cfg_dict = json.load(f)$/;"	kind:variable	line:62
 data_cfg_dict	../src/test_emb.py	/^    data_cfg_dict = json.load(f)$/;"	kind:variable	line:36
 data_parallel	../src/lib/models/data_parallel.py	/^def data_parallel(module, inputs, device_ids=None, output_device=None, dim=0, module_kwargs=None):$/;"	kind:function	line:87
 data_parallel.py	../src/lib/models/data_parallel.py	1;"	kind:file	line:1
-data_root	../src/track.py	/^         data_root=data_root,$/;"	kind:variable	line:244
-data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT15\/images\/test')$/;"	kind:variable	line:195
-data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT15\/images\/train')$/;"	kind:variable	line:164
-data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT15\/images\/train')$/;"	kind:variable	line:226
-data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT16\/test')$/;"	kind:variable	line:182
-data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT16\/train')$/;"	kind:variable	line:173
-data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT17\/images\/test')$/;"	kind:variable	line:204
-data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT17\/images\/train')$/;"	kind:variable	line:213
-data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT20\/images\/test')$/;"	kind:variable	line:240
-data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT20\/images\/train')$/;"	kind:variable	line:233
+data_root	../src/track.py	/^         data_root=data_root,$/;"	kind:variable	line:220
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT15\/images\/test')$/;"	kind:variable	line:171
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT15\/images\/train')$/;"	kind:variable	line:140
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT15\/images\/train')$/;"	kind:variable	line:202
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT16\/test')$/;"	kind:variable	line:158
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT16\/train')$/;"	kind:variable	line:149
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT17\/images\/test')$/;"	kind:variable	line:180
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT17\/images\/train')$/;"	kind:variable	line:189
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT20\/images\/test')$/;"	kind:variable	line:216
+data_root	../src/track.py	/^        data_root = os.path.join(opt.data_dir, 'MOT20\/images\/train')$/;"	kind:variable	line:209
 dataloader	../src/test_det.py	/^    dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=False,$/;"	kind:variable	line:81
 dataloader	../src/test_emb.py	/^    dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=False,$/;"	kind:variable	line:55
 dataset	../src/test_det.py	/^    dataset = DetDataset(dataset_root, test_path, img_size, augment=False, transforms=transforms)$/;"	kind:variable	line:80
@@ -334,6 +321,7 @@ dets	../src/test_det.py	/^            dets = detections[si]$/;"	kind:variable	li
 dets	../src/test_det.py	/^            dets = dets.unsqueeze(0)$/;"	kind:variable	line:115
 dets	../src/test_det.py	/^            dets = merge_outputs(opt, [dets])[1]$/;"	kind:variable	line:117
 dets	../src/test_det.py	/^            dets = post_process(opt, dets, meta)$/;"	kind:variable	line:116
+dl	../src/script.py	/^    dl = datasets.LoadVideo(video_path, (1088,608))$/;"	kind:variable	line:18
 dla102	../src/lib/models/networks/dlav0.py	/^def dla102(pretrained=None, **kwargs):  # DLA-102$/;"	kind:function	line:378
 dla102x	../src/lib/models/networks/dlav0.py	/^def dla102x(pretrained=None, **kwargs):  # DLA-X-102$/;"	kind:function	line:387
 dla102x2	../src/lib/models/networks/dlav0.py	/^def dla102x2(pretrained=None, **kwargs):  # DLA-X-102 64$/;"	kind:function	line:396
@@ -353,14 +341,12 @@ emb_scale	../src/test_emb.py	/^        emb_scale = math.sqrt(2) * math.log(opt.n
 embedding	../src/test_emb.py	/^    embedding = F.normalize(embedding, dim=1)$/;"	kind:variable	line:91
 embedding	../src/test_emb.py	/^    embedding = torch.stack(embedding, dim=0).cuda()$/;"	kind:variable	line:85
 embedding_distance	../src/lib/tracker/matching.py	/^def embedding_distance(tracks, detections, metric='cosine'):$/;"	kind:function	line:91
-embedding_distance	../src/lib/tracker2/matching.py	/^def embedding_distance(tracks, detections, metric='cosine'):$/;"	kind:function	line:91
 encode_delta	../src/lib/tracking_utils/utils.py	/^def encode_delta(gt_box_list, fg_anchor_list):$/;"	kind:function	line:322
 encode_delta	../src/lib/utils/utils.py	/^def encode_delta(gt_box_list, fg_anchor_list):$/;"	kind:function	line:170
 end_frame	../src/lib/tracker/basetrack.py	/^    def end_frame(self):$/;"	kind:member	line:31
-end_frame	../src/lib/tracker2/basetrack.py	/^    def end_frame(self):$/;"	kind:member	line:31
 eval_file	../src/lib/tracking_utils/evaluation.py	/^    def eval_file(self, filename):$/;"	kind:member	line:78
 eval_frame	../src/lib/tracking_utils/evaluation.py	/^    def eval_frame(self, frame_id, trk_tlwhs, trk_ids, rtn_events=False):$/;"	kind:member	line:30
-eval_seq	../src/track.py	/^def eval_seq(opt, dataloader, data_type, result_filename, save_dir=None, show_image=True, frame_rate=30):$/;"	kind:function	line:59
+eval_seq	../src/track.py	/^def eval_seq(opt, dataloader, data_type, save_dir=None, show_image=True, frame_rate=30):$/;"	kind:function	line:39
 evaluation.py	../src/lib/tracking_utils/evaluation.py	1;"	kind:file	line:1
 example_dconv	../src/lib/models/networks/DCNv2/test.py	/^def example_dconv():$/;"	kind:function	line:165
 example_dconv	../src/lib/models/networks/DCNv2_new/testcpu.py	/^def example_dconv():$/;"	kind:function	line:169
@@ -371,7 +357,7 @@ example_dpooling	../src/lib/models/networks/DCNv2_new/testcuda.py	/^def example_
 example_mdpooling	../src/lib/models/networks/DCNv2/test.py	/^def example_mdpooling():$/;"	kind:function	line:222
 example_mdpooling	../src/lib/models/networks/DCNv2_new/testcpu.py	/^def example_mdpooling():$/;"	kind:function	line:226
 example_mdpooling	../src/lib/models/networks/DCNv2_new/testcuda.py	/^def example_mdpooling():$/;"	kind:function	line:226
-exp_name	../src/track.py	/^         exp_name='MOT15_val_all_dla34',$/;"	kind:variable	line:246
+exp_name	../src/track.py	/^         exp_name='MOT15_val_all_dla34',$/;"	kind:variable	line:222
 expansion	../src/lib/models/networks/dlav0.py	/^    expansion = 2$/;"	kind:variable	line:101
 expansion	../src/lib/models/networks/dlav0.py	/^    expansion = 2$/;"	kind:variable	line:60
 expansion	../src/lib/models/networks/pose_dla_dcn.py	/^    expansion = 2$/;"	kind:variable	line:103
@@ -388,7 +374,6 @@ f	../src/test_det.py	/^    f = open(data_cfg)$/;"	kind:variable	line:61
 f	../src/test_emb.py	/^    f = open(data_cfg)$/;"	kind:variable	line:35
 far_levels	../src/test_emb.py	/^    far_levels = [1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1]$/;"	kind:variable	line:99
 features	../src/lib/tracker/basetrack.py	/^    features = []$/;"	kind:variable	line:20
-features	../src/lib/tracker2/basetrack.py	/^    features = []$/;"	kind:variable	line:20
 fill_fc_weights	../src/lib/models/networks/dlav0.py	/^def fill_fc_weights(layers):$/;"	kind:function	line:518
 fill_fc_weights	../src/lib/models/networks/pose_dla_dcn.py	/^def fill_fc_weights(layers):$/;"	kind:function	line:325
 fill_fc_weights	../src/lib/models/networks/pose_hrnet.py	/^def fill_fc_weights(layers):$/;"	kind:function	line:532
@@ -460,11 +445,8 @@ forward	../src/lib/models/networks/resnet_fpn_dcn.py	/^    def forward(self, x):
 forward	../src/lib/trains/base_trainer.py	/^  def forward(self, batch):$/;"	kind:member	line:18
 forward	../src/lib/trains/mot.py	/^    def forward(self, outputs, batch):$/;"	kind:member	line:38
 frame_id	../src/lib/tracker/basetrack.py	/^    frame_id = 0$/;"	kind:variable	line:24
-frame_id	../src/lib/tracker2/basetrack.py	/^    frame_id = 0$/;"	kind:variable	line:24
 fuse_motion	../src/lib/tracker/matching.py	/^def fuse_motion(kf, cost_matrix, tracks, detections, only_position=False, lambda_=0.98):$/;"	kind:function	line:123
-fuse_motion	../src/lib/tracker2/matching.py	/^def fuse_motion(kf, cost_matrix, tracks, detections, only_position=False, lambda_=0.98):$/;"	kind:function	line:123
 gate_cost_matrix	../src/lib/tracker/matching.py	/^def gate_cost_matrix(kf, cost_matrix, tracks, detections, only_position=False):$/;"	kind:function	line:110
-gate_cost_matrix	../src/lib/tracker2/matching.py	/^def gate_cost_matrix(kf, cost_matrix, tracks, detections, only_position=False):$/;"	kind:function	line:110
 gather	../src/lib/models/data_parallel.py	/^    def gather(self, outputs, output_device):$/;"	kind:member	line:83
 gating_distance	../src/lib/tracking_utils/kalman_filter.py	/^    def gating_distance(self, mean, covariance, measurements,$/;"	kind:member	line:227
 gaussian2D	../src/lib/utils/image.py	/^def gaussian2D(shape, sigma=1):$/;"	kind:function	line:118
@@ -499,7 +481,6 @@ gt	../src/test_emb.py	/^    gt = gt[up_triangle]$/;"	kind:variable	line:97
 gt	../src/test_emb.py	/^    gt = id_labels.expand(n, n).eq(id_labels.expand(n, n).t()).numpy()$/;"	kind:variable	line:93
 height	../src/test_det.py	/^        height = origin_shape[0]$/;"	kind:variable	line:95
 history	../src/lib/tracker/basetrack.py	/^    history = OrderedDict()$/;"	kind:variable	line:19
-history	../src/lib/tracker2/basetrack.py	/^    history = OrderedDict()$/;"	kind:variable	line:19
 hm	../src/test_det.py	/^        hm = output['hm'].sigmoid_()$/;"	kind:variable	line:103
 id_head	../src/test_emb.py	/^        id_head = _tranpose_and_gather_feat(output['id'], batch['ind'].cuda())$/;"	kind:variable	line:62
 id_head	../src/test_emb.py	/^        id_head = emb_scale * F.normalize(id_head)$/;"	kind:variable	line:65
@@ -507,7 +488,8 @@ id_head	../src/test_emb.py	/^        id_head = id_head[batch['reg_mask'].cuda() 
 id_labels	../src/test_emb.py	/^    id_labels = torch.LongTensor(id_labels)$/;"	kind:variable	line:86
 id_target	../src/test_emb.py	/^        id_target = batch['ids'].cuda()[batch['reg_mask'].cuda() > 0]$/;"	kind:variable	line:66
 image.py	../src/lib/utils/image.py	1;"	kind:file	line:1
-init	../src/lib/opts.py	/^  def init(self, args=''):$/;"	kind:member	line:229
+init	../src/lib/opts.py	/^    def init(self, args=''):$/;"	kind:member	line:162
+init	../src/lib/opts2.py	/^  def init(self, args=''):$/;"	kind:member	line:229
 init_offset	../src/lib/models/networks/DCNv2/dcn_v2.py	/^    def init_offset(self):$/;"	kind:member	line:114
 init_offset	../src/lib/models/networks/DCNv2_new/dcn_v2.py	/^    def init_offset(self):$/;"	kind:member	line:114
 init_seeds	../src/lib/tracking_utils/utils.py	/^def init_seeds(seed=0):$/;"	kind:function	line:27
@@ -521,14 +503,10 @@ interp	../src/test_emb.py	/^    interp = interpolate.interp1d(far, tar)$/;"	kind
 io.py	../src/lib/tracking_utils/io.py	1;"	kind:file	line:1
 iou	../src/test_det.py	/^                    iou = bbox_iou(pred_bbox, target_boxes, x1y1x2y2=True)[0]$/;"	kind:variable	line:169
 iou_distance	../src/lib/tracker/matching.py	/^def iou_distance(atracks, btracks):$/;"	kind:function	line:71
-iou_distance	../src/lib/tracker2/matching.py	/^def iou_distance(atracks, btracks):$/;"	kind:function	line:71
 ious	../src/lib/tracker/matching.py	/^def ious(atlbrs, btlbrs):$/;"	kind:function	line:51
-ious	../src/lib/tracker2/matching.py	/^def ious(atlbrs, btlbrs):$/;"	kind:function	line:51
 is_activated	../src/lib/tracker/basetrack.py	/^    is_activated = False$/;"	kind:variable	line:16
-is_activated	../src/lib/tracker2/basetrack.py	/^    is_activated = False$/;"	kind:variable	line:16
 jde.py	../src/lib/datasets/dataset/jde.py	1;"	kind:file	line:1
 joint_stracks	../src/lib/tracker/multitracker.py	/^def joint_stracks(tlista, tlistb):$/;"	kind:function	line:376
-joint_stracks	../src/lib/tracker2/multitracker.py	/^def joint_stracks(tlista, tlistb):$/;"	kind:function	line:376
 kalman_filter.py	../src/lib/tracking_utils/kalman_filter.py	1;"	kind:file	line:1
 label_root	../src/gen_labels_15.py	/^label_root = '\/data\/yfzhang\/MOT\/JDE\/MOT15\/labels_with_ids\/train'$/;"	kind:variable	line:12
 label_root	../src/gen_labels_20.py	/^label_root = '\/data\/yfzhang\/MOT\/JDE\/MOT20\/labels_with_ids\/train'$/;"	kind:variable	line:12
@@ -536,14 +514,12 @@ letterbox	../src/lib/datasets/dataset/jde.py	/^def letterbox(img, height=608, wi
 lib_path	../src/_init_paths.py	/^lib_path = osp.join(this_dir, 'lib')$/;"	kind:variable	line:11
 lighting_	../src/lib/utils/image.py	/^def lighting_(data_rng, image, alphastd, eigval, eigvec):$/;"	kind:function	line:201
 linear_assignment	../src/lib/tracker/matching.py	/^def linear_assignment(cost_matrix, thresh):$/;"	kind:function	line:37
-linear_assignment	../src/lib/tracker2/matching.py	/^def linear_assignment(cost_matrix, thresh):$/;"	kind:function	line:37
 load_annotations	../src/lib/tracking_utils/evaluation.py	/^    def load_annotations(self):$/;"	kind:member	line:20
 load_classes	../src/lib/tracking_utils/utils.py	/^def load_classes(path):$/;"	kind:function	line:35
 load_model	../src/lib/models/model.py	/^def load_model(model, model_path, optimizer=None, resume=False, $/;"	kind:function	line:28
 load_pretrained_model	../src/lib/models/networks/dlav0.py	/^    def load_pretrained_model(self,  data='imagenet', name='dla34', hash='ba72cf86'):$/;"	kind:member	line:304
 load_pretrained_model	../src/lib/models/networks/pose_dla_dcn.py	/^    def load_pretrained_model(self, data='imagenet', name='dla34', hash='ba72cf86'):$/;"	kind:member	line:293
 location	../src/lib/tracker/basetrack.py	/^    location = (np.inf, np.inf)$/;"	kind:variable	line:28
-location	../src/lib/tracker2/basetrack.py	/^    location = (np.inf, np.inf)$/;"	kind:variable	line:28
 log.py	../src/lib/tracking_utils/log.py	1;"	kind:file	line:1
 logger	../src/lib/models/networks/pose_dla_dcn.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:18
 logger	../src/lib/models/networks/pose_hrnet.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:17
@@ -552,24 +528,19 @@ logger	../src/lib/models/networks/resnet_fpn_dcn.py	/^logger = logging.getLogger
 logger	../src/lib/tracking_utils/log.py	/^logger = get_logger('root')$/;"	kind:variable	line:18
 logger.py	../src/lib/logger.py	1;"	kind:file	line:1
 losses.py	../src/lib/models/losses.py	1;"	kind:file	line:1
-main	../src/track.py	/^def main(opt, data_root='\/data\/MOT16\/train', det_root=None, seqs=('MOT16-05',), exp_name='demo',$/;"	kind:function	line:101
+main	../src/track.py	/^def main(opt, data_root='\/data\/MOT16\/train', det_root=None, seqs=('MOT16-05',), exp_name='demo',$/;"	kind:function	line:77
 main	../src/train.py	/^def main(opt):$/;"	kind:function	line:21
 map	../src/test_det.py	/^        map = test_det(opt, batch_size=4)$/;"	kind:variable	line:215
 map	../src/test_emb.py	/^        map = test_emb(opt, batch_size=4)$/;"	kind:variable	line:111
 mark_lost	../src/lib/tracker/basetrack.py	/^    def mark_lost(self):$/;"	kind:member	line:48
-mark_lost	../src/lib/tracker2/basetrack.py	/^    def mark_lost(self):$/;"	kind:member	line:48
 mark_removed	../src/lib/tracker/basetrack.py	/^    def mark_removed(self):$/;"	kind:member	line:51
-mark_removed	../src/lib/tracker2/basetrack.py	/^    def mark_removed(self):$/;"	kind:member	line:51
 matching.py	../src/lib/tracker/matching.py	1;"	kind:file	line:1
-matching.py	../src/lib/tracker2/matching.py	1;"	kind:file	line:1
 mean	../src/lib/datasets/dataset/jde.py	/^    mean = None$/;"	kind:variable	line:351
 mean_P	../src/test_det.py	/^            mean_P = np.sum(mP) \/ (AP_accum_count + 1E-16)$/;"	kind:variable	line:197
 mean_R	../src/test_det.py	/^            mean_R = np.sum(mR) \/ (AP_accum_count + 1E-16)$/;"	kind:variable	line:196
 mean_mAP	../src/test_det.py	/^            mean_mAP = np.sum(mAPs) \/ (AP_accum_count + 1E-16)$/;"	kind:variable	line:195
 merge_matches	../src/lib/tracker/matching.py	/^def merge_matches(m1, m2, shape):$/;"	kind:function	line:9
-merge_matches	../src/lib/tracker2/matching.py	/^def merge_matches(m1, m2, shape):$/;"	kind:function	line:9
 merge_outputs	../src/lib/tracker/multitracker.py	/^    def merge_outputs(self, detections):$/;"	kind:member	line:204
-merge_outputs	../src/lib/tracker2/multitracker.py	/^    def merge_outputs(self, detections):$/;"	kind:member	line:204
 merge_outputs	../src/test_det.py	/^def merge_outputs(opt, detections):$/;"	kind:function	line:36
 meta	../src/test_det.py	/^        meta = {'c': c, 's': s,$/;"	kind:variable	line:100
 mkdir_if_missing	../src/lib/tracking_utils/utils.py	/^def mkdir_if_missing(d):$/;"	kind:function	line:18
@@ -583,47 +554,52 @@ model	../src/test_emb.py	/^    model = load_model(model, opt.load_model)$/;"	kin
 model	../src/test_emb.py	/^    model = model.to(opt.device)$/;"	kind:variable	line:49
 model.py	../src/lib/models/model.py	1;"	kind:file	line:1
 model_info	../src/lib/tracking_utils/utils.py	/^def model_info(model):  # Plots a line-by-line description of a PyTorch model$/;"	kind:function	line:44
+model_path	../src/script.py	/^    model_path = args.model_path$/;"	kind:variable	line:15
 model_urls	../src/lib/models/networks/resnet_dcn.py	/^model_urls = {$/;"	kind:variable	line:23
 model_urls	../src/lib/models/networks/resnet_fpn_dcn.py	/^model_urls = {$/;"	kind:variable	line:23
 mot.py	../src/lib/trains/mot.py	1;"	kind:file	line:1
 mot_decode	../src/lib/models/decode.py	/^def mot_decode(heat, wh, reg=None, cat_spec_wh=False, K=100):$/;"	kind:function	line:48
 multi_predict	../src/lib/tracker/multitracker.py	/^    def multi_predict(stracks):$/;"	kind:member	line:54
-multi_predict	../src/lib/tracker2/multitracker.py	/^    def multi_predict(stracks):$/;"	kind:member	line:54
 multi_predict	../src/lib/tracking_utils/kalman_filter.py	/^    def multi_predict(self, mean, covariance):$/;"	kind:member	line:154
 multitracker.py	../src/lib/tracker/multitracker.py	1;"	kind:file	line:1
-multitracker.py	../src/lib/tracker2/multitracker.py	1;"	kind:file	line:1
 n	../src/test_emb.py	/^    n = len(id_labels)$/;"	kind:variable	line:87
 nC	../src/test_det.py	/^    nC = 1$/;"	kind:variable	line:64
 nC	../src/test_emb.py	/^    nC = 1$/;"	kind:variable	line:38
 name	../src/lib/models/networks/DCNv2/setup.py	/^    name="DCNv2",$/;"	kind:variable	line:57
 name	../src/lib/models/networks/DCNv2_new/setup.py	/^    name="DCNv2",$/;"	kind:variable	line:62
 next_id	../src/lib/tracker/basetrack.py	/^    def next_id():$/;"	kind:member	line:35
-next_id	../src/lib/tracker2/basetrack.py	/^    def next_id():$/;"	kind:member	line:35
 nms	../src/lib/tracking_utils/nms.py	/^nms = _C.nms$/;"	kind:variable	line:5
 nms.py	../src/lib/tracking_utils/nms.py	1;"	kind:file	line:1
 non_max_suppression	../src/lib/tracking_utils/utils.py	/^def non_max_suppression(prediction, conf_thres=0.5, nms_thres=0.2):$/;"	kind:function	line:364
 num_classes	../src/lib/datasets/dataset/jde.py	/^    num_classes = 1$/;"	kind:variable	line:353
 obj_pred	../src/test_det.py	/^                    obj_pred = 0$/;"	kind:variable	line:166
 opt	../src/demo.py	/^    opt = opts().init()$/;"	kind:variable	line:39
+opt	../src/script.py	/^    opt = opts().init()$/;"	kind:variable	line:19
 opt	../src/test_det.py	/^    opt = opts().init()$/;"	kind:variable	line:213
 opt	../src/test_emb.py	/^    opt = opts().init()$/;"	kind:variable	line:109
-opt	../src/track.py	/^    opt = opts().init()$/;"	kind:variable	line:155
+opt	../src/track.py	/^    opt = opts().init()$/;"	kind:variable	line:131
 opt	../src/train.py	/^    opt = opts().parse()$/;"	kind:variable	line:96
 opts	../src/lib/opts.py	/^class opts(object):$/;"	kind:class	line:9
+opts	../src/lib/opts2.py	/^class opts(object):$/;"	kind:class	line:9
 opts.py	../src/lib/opts.py	1;"	kind:file	line:1
+opts2.py	../src/lib/opts2.py	1;"	kind:file	line:1
 origin_shape	../src/test_det.py	/^        origin_shape = shapes[0]$/;"	kind:variable	line:93
 outC	../src/lib/models/networks/DCNv2/test.py	/^outC = 2$/;"	kind:variable	line:14
 outC	../src/lib/models/networks/DCNv2_new/testcpu.py	/^outC = 2$/;"	kind:variable	line:16
 outC	../src/lib/models/networks/DCNv2_new/testcuda.py	/^outC = 2$/;"	kind:variable	line:16
+out_dir	../src/script.py	/^    out_dir = args.output_dir$/;"	kind:variable	line:14
 output	../src/test_det.py	/^        output = model(imgs.cuda())[-1]$/;"	kind:variable	line:92
 output	../src/test_emb.py	/^        output = model(batch['input'].cuda())[-1]$/;"	kind:variable	line:61
+output_dir	../src/script.py	/^    output_dir = out_dir$/;"	kind:variable	line:22
 packages	../src/lib/models/networks/DCNv2/setup.py	/^    packages=find_packages(exclude=("configs", "tests",)),$/;"	kind:variable	line:62
 packages	../src/lib/models/networks/DCNv2_new/setup.py	/^    packages=find_packages(exclude=("configs", "tests",)),$/;"	kind:variable	line:67
 parallel_apply	../src/lib/models/data_parallel.py	/^    def parallel_apply(self, replicas, inputs, kwargs):$/;"	kind:member	line:80
-parse	../src/lib/opts.py	/^  def parse(self, args=''):$/;"	kind:member	line:155
+parse	../src/lib/opts.py	/^    def parse(self, args=''):$/;"	kind:member	line:92
+parse	../src/lib/opts2.py	/^  def parse(self, args=''):$/;"	kind:member	line:155
 parse_config.py	../src/lib/tracking_utils/parse_config.py	1;"	kind:file	line:1
 parse_data_cfg	../src/lib/tracking_utils/parse_config.py	/^def parse_data_cfg(path):$/;"	kind:function	line:22
 parse_model_cfg	../src/lib/tracking_utils/parse_config.py	/^def parse_model_cfg(path):$/;"	kind:function	line:1
+parser	../src/script.py	/^parser = argparse.ArgumentParser()$/;"	kind:variable	line:4
 pdist	../src/test_emb.py	/^    pdist = pdist[up_triangle]$/;"	kind:variable	line:96
 pdist	../src/test_emb.py	/^    pdist = torch.mm(embedding, embedding.t()).cpu().numpy()$/;"	kind:variable	line:92
 plot_detections	../src/lib/tracking_utils/visualization.py	/^def plot_detections(image, tlbrs, scores=None, color=(255, 0, 0), ids=None):$/;"	kind:function	line:68
@@ -635,25 +611,20 @@ pooling_nms	../src/lib/tracking_utils/utils.py	/^def pooling_nms(heatmap, kernel
 pose_dla_dcn.py	../src/lib/models/networks/pose_dla_dcn.py	1;"	kind:file	line:1
 pose_hrnet.py	../src/lib/models/networks/pose_hrnet.py	1;"	kind:file	line:1
 post_process	../src/lib/tracker/multitracker.py	/^    def post_process(self, dets, meta):$/;"	kind:member	line:194
-post_process	../src/lib/tracker2/multitracker.py	/^    def post_process(self, dets, meta):$/;"	kind:member	line:194
 post_process	../src/test_det.py	/^def post_process(opt, dets, meta):$/;"	kind:function	line:25
 post_process.py	../src/lib/utils/post_process.py	1;"	kind:file	line:1
 pred_bbox	../src/test_det.py	/^                    pred_bbox = torch.FloatTensor(pred_bbox).view(1, -1)$/;"	kind:variable	line:167
 pred_cls	../src/test_det.py	/^                                              pred_cls=np.zeros_like(dets[:, 4]),  # detections[:, 6]$/;"	kind:variable	line:182
 predict	../src/lib/tracker/basetrack.py	/^    def predict(self):$/;"	kind:member	line:42
 predict	../src/lib/tracker/multitracker.py	/^    def predict(self):$/;"	kind:member	line:47
-predict	../src/lib/tracker2/basetrack.py	/^    def predict(self):$/;"	kind:member	line:42
-predict	../src/lib/tracker2/multitracker.py	/^    def predict(self):$/;"	kind:member	line:47
 predict	../src/lib/tracking_utils/kalman_filter.py	/^    def predict(self, mean, covariance):$/;"	kind:member	line:87
 project	../src/lib/tracking_utils/kalman_filter.py	/^    def project(self, mean, covariance):$/;"	kind:member	line:125
 random_affine	../src/lib/datasets/dataset/jde.py	/^def random_affine(img, targets=None, degrees=(-10, 10), translate=(.1, .1), scale=(.9, 1.1), shear=(-2, 2),$/;"	kind:function	line:256
 re_activate	../src/lib/tracker/multitracker.py	/^    def re_activate(self, new_track, frame_id, new_id=False):$/;"	kind:member	line:78
-re_activate	../src/lib/tracker2/multitracker.py	/^    def re_activate(self, new_track, frame_id, new_id=False):$/;"	kind:member	line:78
 read_mot_results	../src/lib/tracking_utils/io.py	/^def read_mot_results(filename, is_gt, is_ignore):$/;"	kind:function	line:63
 read_results	../src/lib/tracking_utils/io.py	/^def read_results(filename, data_type: str, is_gt=False, is_ignore=False):$/;"	kind:function	line:36
 reg	../src/test_det.py	/^        reg = output['reg'] if opt.reg_offset else None$/;"	kind:variable	line:105
 remove_duplicate_stracks	../src/lib/tracker/multitracker.py	/^def remove_duplicate_stracks(stracksa, stracksb):$/;"	kind:function	line:401
-remove_duplicate_stracks	../src/lib/tracker2/multitracker.py	/^def remove_duplicate_stracks(stracksa, stracksb):$/;"	kind:function	line:401
 replicate	../src/lib/models/data_parallel.py	/^    def replicate(self, module, device_ids):$/;"	kind:member	line:74
 requirements	../src/lib/models/networks/DCNv2/setup.py	/^requirements = ["torch", "torchvision"]$/;"	kind:variable	line:15
 requirements	../src/lib/models/networks/DCNv2_new/setup.py	/^requirements = ["torch", "torchvision"]$/;"	kind:variable	line:15
@@ -671,12 +642,12 @@ root	../src/gen_data_path.py	/^    root = '\/data\/yfzhang\/MOT\/JDE'$/;"	kind:v
 run_epoch	../src/lib/trains/base_trainer.py	/^  def run_epoch(self, phase, epoch, data_loader):$/;"	kind:member	line:45
 s	../src/test_det.py	/^        s = max(float(inp_width) \/ float(inp_height) * height, width) * 1.0$/;"	kind:variable	line:99
 saturation_	../src/lib/utils/image.py	/^def saturation_(data_rng, image, gs, gs_mean, var):$/;"	kind:function	line:210
-save_images	../src/track.py	/^         save_images=False,$/;"	kind:variable	line:248
+save_images	../src/track.py	/^         save_images=False,$/;"	kind:variable	line:224
 save_model	../src/lib/models/model.py	/^def save_model(path, epoch, model, optimizer=None):$/;"	kind:function	line:83
 save_result	../src/lib/trains/base_trainer.py	/^  def save_result(self, output, batch, results):$/;"	kind:member	line:109
 save_result	../src/lib/trains/mot.py	/^    def save_result(self, output, batch, results):$/;"	kind:member	line:95
 save_summary	../src/lib/tracking_utils/evaluation.py	/^    def save_summary(summary, filename):$/;"	kind:member	line:108
-save_videos	../src/track.py	/^         save_videos=False)$/;"	kind:variable	line:249
+save_videos	../src/track.py	/^         save_videos=False)$/;"	kind:variable	line:225
 scalar_summary	../src/lib/logger.py	/^  def scalar_summary(self, tag, value, step):$/;"	kind:member	line:69
 scale_coords	../src/lib/tracking_utils/utils.py	/^def scale_coords(img_size, coords, img0_shape):$/;"	kind:function	line:98
 scatter	../src/lib/models/data_parallel.py	/^    def scatter(self, inputs, kwargs, device_ids, chunk_sizes):$/;"	kind:member	line:77
@@ -685,27 +656,24 @@ scatter_gather.py	../src/lib/models/scatter_gather.py	1;"	kind:file	line:1
 scatter_kwargs	../src/lib/models/scatter_gather.py	/^def scatter_kwargs(inputs, kwargs, target_gpus, dim=0, chunk_sizes=None):$/;"	kind:function	line:28
 scatter_map	../src/lib/models/scatter_gather.py	/^    def scatter_map(obj):$/;"	kind:function	line:13
 score	../src/lib/tracker/basetrack.py	/^    score = 0$/;"	kind:variable	line:22
-score	../src/lib/tracker2/basetrack.py	/^    score = 0$/;"	kind:variable	line:22
+script.py	../src/script.py	1;"	kind:file	line:1
 seq_root	../src/gen_labels_15.py	/^seq_root = '\/data\/yfzhang\/MOT\/JDE\/MOT15\/images\/train'$/;"	kind:variable	line:11
 seq_root	../src/gen_labels_20.py	/^seq_root = '\/data\/yfzhang\/MOT\/JDE\/MOT20\/images\/train'$/;"	kind:variable	line:11
 seqs	../src/gen_labels_15.py	/^seqs = ['ADL-Rundle-6', 'ETH-Bahnhof', 'KITTI-13', 'PETS09-S2L1', 'TUD-Stadtmitte', 'ADL-Rundle-8', 'KITTI-17',$/;"	kind:variable	line:15
 seqs	../src/gen_labels_20.py	/^seqs = [s for s in os.listdir(seq_root)]$/;"	kind:variable	line:14
-seqs	../src/track.py	/^         seqs=seqs,$/;"	kind:variable	line:245
-seqs	../src/track.py	/^    seqs = [seq.strip() for seq in seqs_str.split()]$/;"	kind:variable	line:241
+seqs	../src/track.py	/^         seqs=seqs,$/;"	kind:variable	line:221
+seqs	../src/track.py	/^    seqs = [seq.strip() for seq in seqs_str.split()]$/;"	kind:variable	line:217
 set_device	../src/lib/trains/base_trainer.py	/^  def set_device(self, gpus, chunk_sizes, device):$/;"	kind:member	line:32
 setup.py	../src/lib/models/networks/DCNv2/setup.py	1;"	kind:file	line:1
 setup.py	../src/lib/models/networks/DCNv2_new/setup.py	1;"	kind:file	line:1
 shared_kalman	../src/lib/tracker/multitracker.py	/^    shared_kalman = KalmanFilter()$/;"	kind:variable	line:20
-shared_kalman	../src/lib/tracker2/multitracker.py	/^    shared_kalman = KalmanFilter()$/;"	kind:variable	line:20
-show_image	../src/track.py	/^         show_image=False,$/;"	kind:variable	line:247
+show_image	../src/script.py	/^    show_image = False$/;"	kind:variable	line:21
+show_image	../src/track.py	/^         show_image=False,$/;"	kind:variable	line:223
 start_frame	../src/lib/tracker/basetrack.py	/^    start_frame = 0$/;"	kind:variable	line:23
-start_frame	../src/lib/tracker2/basetrack.py	/^    start_frame = 0$/;"	kind:variable	line:23
 state	../src/lib/tracker/basetrack.py	/^    state = TrackState.New$/;"	kind:variable	line:17
-state	../src/lib/tracker2/basetrack.py	/^    state = TrackState.New$/;"	kind:variable	line:17
 std	../src/lib/datasets/dataset/jde.py	/^    std = None$/;"	kind:variable	line:352
 strip_optimizer_from_checkpoint	../src/lib/tracking_utils/utils.py	/^def strip_optimizer_from_checkpoint(filename='weights\/best.pt'):$/;"	kind:function	line:409
 sub_stracks	../src/lib/tracker/multitracker.py	/^def sub_stracks(tlista, tlistb):$/;"	kind:function	line:390
-sub_stracks	../src/lib/tracker2/multitracker.py	/^def sub_stracks(tlista, tlistb):$/;"	kind:function	line:390
 t	../src/test_det.py	/^        t = time.time()$/;"	kind:variable	line:89
 t	../src/test_emb.py	/^        t = time.time()$/;"	kind:variable	line:60
 tar_at_far	../src/test_emb.py	/^    tar_at_far = [interp(x) for x in far_levels]$/;"	kind:variable	line:102
@@ -729,25 +697,17 @@ tid_curr	../src/gen_labels_20.py	/^tid_curr = 0$/;"	kind:variable	line:16
 tid_last	../src/gen_labels_15.py	/^tid_last = -1$/;"	kind:variable	line:19
 tid_last	../src/gen_labels_20.py	/^tid_last = -1$/;"	kind:variable	line:17
 time_since_update	../src/lib/tracker/basetrack.py	/^    time_since_update = 0$/;"	kind:variable	line:25
-time_since_update	../src/lib/tracker2/basetrack.py	/^    time_since_update = 0$/;"	kind:variable	line:25
 timer.py	../src/lib/tracking_utils/timer.py	1;"	kind:file	line:1
 tlbr	../src/lib/tracker/multitracker.py	/^    def tlbr(self):$/;"	kind:member	line:127
-tlbr	../src/lib/tracker2/multitracker.py	/^    def tlbr(self):$/;"	kind:member	line:127
 tlbr_to_tlwh	../src/lib/tracker/multitracker.py	/^    def tlbr_to_tlwh(tlbr):$/;"	kind:member	line:151
-tlbr_to_tlwh	../src/lib/tracker2/multitracker.py	/^    def tlbr_to_tlwh(tlbr):$/;"	kind:member	line:151
 tlwh	../src/lib/tracker/multitracker.py	/^    def tlwh(self):$/;"	kind:member	line:114
-tlwh	../src/lib/tracker2/multitracker.py	/^    def tlwh(self):$/;"	kind:member	line:114
 tlwh_to_tlbr	../src/lib/tracker/multitracker.py	/^    def tlwh_to_tlbr(tlwh):$/;"	kind:member	line:158
-tlwh_to_tlbr	../src/lib/tracker2/multitracker.py	/^    def tlwh_to_tlbr(tlwh):$/;"	kind:member	line:158
 tlwh_to_xyah	../src/lib/tracker/multitracker.py	/^    def tlwh_to_xyah(tlwh):$/;"	kind:member	line:137
-tlwh_to_xyah	../src/lib/tracker2/multitracker.py	/^    def tlwh_to_xyah(tlwh):$/;"	kind:member	line:137
 tlwhs_to_tlbrs	../src/lib/tracking_utils/visualization.py	/^def tlwhs_to_tlbrs(tlwhs):$/;"	kind:function	line:5
 to_xyah	../src/lib/tracker/multitracker.py	/^    def to_xyah(self):$/;"	kind:member	line:146
-to_xyah	../src/lib/tracker2/multitracker.py	/^    def to_xyah(self):$/;"	kind:member	line:146
 toc	../src/lib/tracking_utils/timer.py	/^    def toc(self, average=True):$/;"	kind:member	line:27
 track.py	../src/track.py	1;"	kind:file	line:1
 track_id	../src/lib/tracker/basetrack.py	/^    track_id = 0$/;"	kind:variable	line:15
-track_id	../src/lib/tracker2/basetrack.py	/^    track_id = 0$/;"	kind:variable	line:15
 train	../src/lib/trains/base_trainer.py	/^  def train(self, epoch, data_loader):$/;"	kind:member	line:118
 train.py	../src/train.py	1;"	kind:file	line:1
 train_factory	../src/lib/trains/train_factory.py	/^train_factory = {$/;"	kind:variable	line:8
@@ -760,15 +720,12 @@ up_triangle	../src/test_emb.py	/^    up_triangle = np.where(np.triu(pdist) - np.
 update	../src/lib/tracker/basetrack.py	/^    def update(self, *args, **kwargs):$/;"	kind:member	line:45
 update	../src/lib/tracker/multitracker.py	/^    def update(self, im_blob, img0):$/;"	kind:member	line:220
 update	../src/lib/tracker/multitracker.py	/^    def update(self, new_track, frame_id, update_feature=True):$/;"	kind:member	line:91
-update	../src/lib/tracker2/basetrack.py	/^    def update(self, *args, **kwargs):$/;"	kind:member	line:45
-update	../src/lib/tracker2/multitracker.py	/^    def update(self, im_blob, img0):$/;"	kind:member	line:220
-update	../src/lib/tracker2/multitracker.py	/^    def update(self, new_track, frame_id, update_feature=True):$/;"	kind:member	line:91
 update	../src/lib/tracking_utils/kalman_filter.py	/^    def update(self, mean, covariance, measurement):$/;"	kind:member	line:193
 update	../src/lib/utils/utils.py	/^    def update(self, val, n=1):$/;"	kind:member	line:19
 update_config	../src/lib/models/networks/config/default.py	/^def update_config(cfg, cfg_dir):$/;"	kind:function	line:116
-update_dataset_info_and_set_heads	../src/lib/opts.py	/^  def update_dataset_info_and_set_heads(self, opt, dataset):$/;"	kind:member	line:201
+update_dataset_info_and_set_heads	../src/lib/opts.py	/^    def update_dataset_info_and_set_heads(self, opt, dataset):$/;"	kind:member	line:134
+update_dataset_info_and_set_heads	../src/lib/opts2.py	/^  def update_dataset_info_and_set_heads(self, opt, dataset):$/;"	kind:member	line:201
 update_features	../src/lib/tracker/multitracker.py	/^    def update_features(self, feat):$/;"	kind:member	line:37
-update_features	../src/lib/tracker2/multitracker.py	/^    def update_features(self, feat):$/;"	kind:member	line:37
 url	../src/lib/models/networks/DCNv2/setup.py	/^    url="https:\/\/github.com\/charlesshang\/DCNv2",$/;"	kind:variable	line:60
 url	../src/lib/models/networks/DCNv2_new/setup.py	/^    url="https:\/\/github.com\/charlesshang\/DCNv2",$/;"	kind:variable	line:65
 utils.py	../src/lib/models/utils.py	1;"	kind:file	line:1
@@ -777,6 +734,7 @@ utils.py	../src/lib/utils/utils.py	1;"	kind:file	line:1
 val	../src/lib/trains/base_trainer.py	/^  def val(self, epoch, data_loader):$/;"	kind:member	line:115
 version	../src/lib/models/networks/DCNv2/setup.py	/^    version="0.1",$/;"	kind:variable	line:58
 version	../src/lib/models/networks/DCNv2_new/setup.py	/^    version="0.1",$/;"	kind:variable	line:63
+video_path	../src/script.py	/^    video_path = args.video_path$/;"	kind:variable	line:16
 visualization.py	../src/lib/tracking_utils/visualization.py	1;"	kind:file	line:1
 weights_init_normal	../src/lib/tracking_utils/utils.py	/^def weights_init_normal(m):$/;"	kind:function	line:69
 wh	../src/test_det.py	/^        wh = output['wh']$/;"	kind:variable	line:104
@@ -784,7 +742,6 @@ width	../src/test_det.py	/^        width = origin_shape[1]$/;"	kind:variable	lin
 write	../src/lib/logger.py	/^  def write(self, txt):$/;"	kind:member	line:55
 write	../src/track.py	/^    def write(self,frame):$/;"	kind:member	line:34
 write_results	../src/lib/tracking_utils/io.py	/^def write_results(filename, results_dict: Dict, data_type: str):$/;"	kind:function	line:8
-write_results	../src/track.py	/^def write_results(filename, results, data_type):$/;"	kind:function	line:37
 xywh2xyxy	../src/lib/tracking_utils/utils.py	/^def xywh2xyxy(x):$/;"	kind:function	line:88
 xywh2xyxy	../src/lib/utils/utils.py	/^def xywh2xyxy(x):$/;"	kind:function	line:37
 xyxy2xywh	../src/lib/tracking_utils/utils.py	/^def xyxy2xywh(x):$/;"	kind:function	line:78

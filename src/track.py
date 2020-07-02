@@ -32,31 +32,11 @@ class VideoWriter:
         self.writer_obj = cv2.VideoWriter(f'{save_path}/output.avi', fourcc, self.frame_rate, (self.width,self.height))
 
     def write(self,frame):
+        frame = cv2.resize(frame,(self.width,self.height))
         self.writer_obj.write(frame)
 
-def write_results(filename, results, data_type):
-    if data_type == 'mot':
-        save_format = '{frame},{id},{x1},{y1},{w},{h},1,-1,-1,-1\n'
-    elif data_type == 'kitti':
-        save_format = '{frame} {id} pedestrian 0 0 -10 {x1} {y1} {x2} {y2} -10 -10 -10 -1000 -1000 -1000 -10\n'
-    else:
-        raise ValueError(data_type)
 
-    with open(filename, 'w') as f:
-        for frame_id, tlwhs, track_ids in results:
-            if data_type == 'kitti':
-                frame_id -= 1
-            for tlwh, track_id in zip(tlwhs, track_ids):
-                if track_id < 0:
-                    continue
-                x1, y1, w, h = tlwh
-                x2, y2 = x1 + w, y1 + h
-                line = save_format.format(frame=frame_id, id=track_id, x1=x1, y1=y1, x2=x2, y2=y2, w=w, h=h)
-                f.write(line)
-    logger.info('save results to {}'.format(filename))
-
-
-def eval_seq(opt, dataloader, data_type, result_filename, save_dir=None, show_image=True, frame_rate=30):
+def eval_seq(opt, dataloader, data_type, save_dir=None, show_image=True, frame_rate=30):
     if save_dir:
         mkdir_if_missing(save_dir)
     tracker = JDETracker(opt, frame_rate=frame_rate)
@@ -65,8 +45,6 @@ def eval_seq(opt, dataloader, data_type, result_filename, save_dir=None, show_im
     frame_id = 0
     writer = VideoWriter(save_dir,dataloader)
     for path, img, img0 in dataloader:
-        # if frame_id % 20 == 0:
-        #     logger.info('Processing frame {} ({:.2f} fps)'.format(frame_id, 1. / max(1e-5, timer.average_time)))
 
         # run tracking
         timer.tic()
@@ -93,9 +71,7 @@ def eval_seq(opt, dataloader, data_type, result_filename, save_dir=None, show_im
             # cv2.imwrite(os.path.join(save_dir, '{:05d}.jpg'.format(frame_id)), online_im)
             writer.write(online_im)
         frame_id += 1
-    # save results
-    #write_results(result_filename, results, data_type)
-    return frame_id, timer.average_time, timer.calls
+    print("***************************** DONE *****************************")
 
 
 def main(opt, data_root='/data/MOT16/train', det_root=None, seqs=('MOT16-05',), exp_name='demo',
