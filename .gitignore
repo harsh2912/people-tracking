@@ -2,7 +2,7 @@ videos/
 experiments/
 src/data/
 src/result*/
-models/
+#models/
 src/video*
 src/random*
 src/Shopp*
