@@ -40,7 +40,7 @@ cd src/lib/models/networks/DCNv2_new sh make.sh
 
 ## Baseline model
 
-Baseline FairMOT model can be downloaded from here: DLA-34: [[Google]](https://drive.google.com/open?id=1udpOPum8fJdoEQm6n0jsIgMMViOMFinu) [[Baidu, code: 88yn]](https://pan.baidu.com/s/1YQGulGblw_hrfvwiO6MIvA). HRNetV2_W18: [[Google]](https://drive.google.com/open?id=182EHCOSzVVopvAqAXN5o6XHX4PEyLjZT) [[Baidu, code: z4ft]](https://pan.baidu.com/s/1h1qwn8dyJmKj_nZi5H3NAQ).
+Baseline FairMOT model can be downloaded from here: DLA-34: [[Google]](https://drive.google.com/file/d/1kUF1qEbr8YHqWpq6Viyy_k7dNisQ8NNl/view?usp=sharing) [[Baidu, code: 88yn]](https://pan.baidu.com/s/1YQGulGblw_hrfvwiO6MIvA).
 After downloading, you should put the baseline model in the following structure:
 ```
 ${FAIRMOT_ROOT}
